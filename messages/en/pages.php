@@ -11,7 +11,7 @@ return [
     'content_privacy_title' => 'Privacy statement',
     'content_privacy_bread' => 'Privacy',
     'content_welcome'       => 'Welcome',
-    'content_welcome_text'  => '<p>Welcome to Antragsgrün</p>',
+    'content_welcome_text'  => '<p>Welcome to Antragsrot</p>',
     'content_imprint_title' => 'Imprint',
     'content_imprint_bread' => 'Imprint',
     'content_help_title'    => 'Help',
@@ -24,7 +24,7 @@ return [
     'content_login_post'    => 'Login (below)',
     'content_feeds_title'   => 'RSS-Feeds',
     'content_feeds_text'    => '<p>RSS-Feeds are a comfortable way to keep up to date with many different news sources.</p>
-        <p>You use a RSS-reader program to subscribe to all news sites, blogs, web-comics, or Antragsgrün-sites that are of interest to you.</p>
+        <p>You use a RSS-reader program to subscribe to all news sites, blogs, web-comics, or Antragsrot-sites that are of interest to you.</p>
         <p>From then on this program will show you an overwiev of all new articles on these sites.</p>
         <p>A small selection of programs and web services to read RSS feeds:</p>
         <ul>

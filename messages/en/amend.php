@@ -143,10 +143,10 @@ return [
     'button_correct'                    => 'Correct',
     'confirm'                           => 'Confirm',
     'go_on'                             => 'Go on',
-    'published_email_body'              => "Hi,\n\nyour amendment to \"%MOTION%\" has just been published on Antragsgrün. " .
+    'published_email_body'              => "Hi,\n\nyour amendment to \"%MOTION%\" has just been published on Antragsrot. " .
                                            "You can see it here: %LINK%\n\n" .
                                            "Greetings,\n" .
-                                           "  The Antragsgrün-Team",
+                                           "  The Antragsrot-Team",
     'published_email_title'             => 'Your amendment has been published',
     'sidebar_adminedit'                 => 'Admin: edit',
     'sidebar_back'                      => 'Back to the motion',
@@ -308,18 +308,18 @@ return [
                                     "the administrators have discussed about your amendment and propose to accept it in a modified version.\n\n" .
                                     "Please check at the following link if you agree with the proposed modifications:\n%LINK%\n\n" .
                                     "Greetings,\n" .
-                                    "  The Antragsgrün-Team",
+                                    "  The Antragsrot-Team",
     'proposal_email_accepted'    => "Hi %NAME_GIVEN%,\n\n" .
                                     "for your information: the administrators will propose to accept your amendment.\n\n" .
                                     "You can see the amendment at the following link: %LINK%\n\n" .
                                     "Greetings,\n" .
-                                    "  The Antragsgrün-Team",
+                                    "  The Antragsrot-Team",
     'proposal_email_other'       => "Hi %NAME_GIVEN%,\n\n" .
                                     "the administrators have agreed on a proposed procedure regarding your amendment.\n\n" .
                                     "Please have a look at the proposal at the following link and confirm, if you agree with it or not:\n%LINK%\n\n" .
                                     "Hint: if you forward the link mentioned just now, the receiving person will be able to see and accept the proposal.\n\n" .
                                     "Greetings,\n" .
-                                    "  The Antragsgrün-Team",
+                                    "  The Antragsrot-Team",
     'proposal_user_agree'        => 'I agree with the proposal',
     'proposal_user_agreed'       => 'You agreed to the proposal',
     'proposal_user_disagree_h'   => 'If you do not agree, please contact the organizators of this consultation.',

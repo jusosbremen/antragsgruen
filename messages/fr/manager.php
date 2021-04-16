@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title_install'           => 'Installer Antragsgrün',
+    'title_install'           => 'Installer Antragsrot',
     'err_settings_ro'         => 'Les paramètres ne peuvent pas être modifiés car il n\'est pas possible d\'écrire sur config/config.json.
     <br>Tu peux réparer cela en entran la commande suivante (ou une similaire) dans l\'invite de commande :',
     'language'                => 'Langue',
@@ -69,10 +69,10 @@ return [
     'mailgun_api'             => 'Mailgun\'s API-Key',
     'mailgun_domain'          => 'Domaine email',
 
-    'done_title' => 'Antragsgrün installé',
+    'done_title' => 'Antragsrot installé',
     'done_no_del_msg' => 'Merci de supprimer le fichier config/INSTALLING pour finir l\'installation.
                 En fonction de votre OS, la commande pour le faire est quelque chose comme : <pre>%DELCMD%</pre>
                 Après l\'avoir fait, recharge cette page.',
     'done_nextstep' => 'Super ! Tu peux maintenant régler plus de détails.
-                Antragsgrün est maintenant disponible à l\'adresse suivante : %LINK%',
+                Antragsrot est maintenant disponible à l\'adresse suivante : %LINK%',
 ];

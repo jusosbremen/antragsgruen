@@ -6,7 +6,7 @@ use app\models\db\Site;
  * @var Site[] $site
  */
 
-$this->title = 'Antragsgrün - die grüne Online-Antragsverwaltung';
+$this->title = 'Antragsrot - die grüne Online-Antragsverwaltung';
 /** @var \app\controllers\Base $controller */
 $controller  = $this->context;
 $controller->layoutParams->addCSS('css/manager.css');
@@ -17,17 +17,17 @@ $controller->layoutParams->alternateLanuages = ['en' => 'https://motion.tools/he
 $params = \Yii::$app->params;
 
 ?>
-<h1>Antragsgrün - das grüne Antragstool</h1>
+<h1>Antragsrot - das grüne Antragstool</h1>
 
 <div class="content managerHelpPage">
 
-    <h2>Antragsgrün - Funktionsübersicht und Handbuch</h2>
+    <h2>Antragsrot - Funktionsübersicht und Handbuch</h2>
 
     <ul class="toc">
         <li>
             <a href="#grundlegender_aufbau"
                onClick="$('#grundlegender_aufbau').scrollintoview({top_offset: -30}); return false;">Grundlegender
-                Aufbau einer Antragsgrün-Seite</a>
+                Aufbau einer Antragsrot-Seite</a>
             <ul>
                 <li><a href="#antraege" onClick="$('#antraege').scrollintoview({top_offset: -30}); return false;">Anträge
                         / Änderungsanträge</a></li>
@@ -123,16 +123,16 @@ $params = \Yii::$app->params;
     </ul>
 
 
-    <h2 id="grundlegender_aufbau">Grundlegender Aufbau einer Antragsgrün-Seite</h2>
+    <h2 id="grundlegender_aufbau">Grundlegender Aufbau einer Antragsrot-Seite</h2>
     <h3 id="antraege">Anträge / Änderungsanträge</h3>
-    <p>Als Anträge werden alle eigenständige Dokumente bezeichnet, die auf Antragsgrün eingestellt werden können.
-        Anträge für Parteitage, Mitgliederversammlungen usw. sind einer der häufigsten Einsatzgebiete für Antragsgrün,
+    <p>Als Anträge werden alle eigenständige Dokumente bezeichnet, die auf Antragsrot eingestellt werden können.
+        Anträge für Parteitage, Mitgliederversammlungen usw. sind einer der häufigsten Einsatzgebiete für Antragsrot,
         daher verwenden wir den Begriff stellvertretend für alle Dokumenttypen. Tatsächlich können auch Wahlprogramme,
         Textentwürfe, Bewerbungen einschließlich Fotos, Satzungen usw. verwaltet werden.</p>
     <p>Änderungsanträge beziehen sich unmittelbar auf einen Antrag (bzw. andere eingestellte Texte) und haben den Zweck,
-        diesen zu verändern. Antragsgrün will vor allem die Handhabung vieler Änderungsanträge pro Antrag vereinfachen
+        diesen zu verändern. Antragsrot will vor allem die Handhabung vieler Änderungsanträge pro Antrag vereinfachen
         und formalisiert diese daher stark: beim Einreichen eines Änderungsantrags muss explizit angegeben werden, die
-        der Antrag nach der beantragten Änderung aussehen soll. Antragsgrün kann so automatisch die tatsächlichen
+        der Antrag nach der beantragten Änderung aussehen soll. Antragsrot kann so automatisch die tatsächlichen
         Änderungen feststellen, den ursprünglichen Antrag so annotieren, dass leicht ersichtlich ist, zu welchen
         Passagen es Alternativvorschläge gibt, und auf Wunsch die Änderungen in den ursprünglichen Antrag
         übernehmen.</p>
@@ -145,8 +145,8 @@ $params = \Yii::$app->params;
         zeitgleich diskutiert werden können. Das kann eine konkrete Verbandstagung, der Entwurf eines Wahlprogramms (in
         dem die einzelnen Kapitel jeweils eigene „Anträge“ sind) oder eine Wahl sein, für die Bewerbungen gesammelt
         werden.</p>
-    <p>Jede Antragsgrün-Seite hat mindestens eine solche Veranstaltung, kann aber beliebig viele haben: wenn also eine
-        Veranstaltung wiederholt stattfindet, muss nicht für jede eine neue Antragsgrün-Seite eingerichtet werden oder
+    <p>Jede Antragsrot-Seite hat mindestens eine solche Veranstaltung, kann aber beliebig viele haben: wenn also eine
+        Veranstaltung wiederholt stattfindet, muss nicht für jede eine neue Antragsrot-Seite eingerichtet werden oder
         erst die alten Anträge gelöscht werden. Links auf frühere Anträge und Veranstaltungen bleiben für Archivzwecke
         erhalten, die Startseite zeigt aber jeweils die aktuellste Veranstaltung ein.</p>
     <p>Neue Veranstaltungen innerhalb der selben Seite können unter „Einstellungen“ unter „Weitere Veranstaltungen
@@ -161,14 +161,14 @@ $params = \Yii::$app->params;
         Anträge (Titel, Antragstext, Begründung) und bieten üblicherweise keine Möglichkeit, Änderungsanträge zu
         stellen. Für manche Veranstaltungen soll es die Möglichkeit für Dringlichkeitsanträge geben, die gesondert von
         regulären Anträgen mit späterem Antragsschluss eingereicht werden können.</p>
-    <p>Um diese Flexibilität zu ermöglichen, unterstützt jede Veranstaltung auf Antragsgrün beliebig viele Antragstypen.
+    <p>Um diese Flexibilität zu ermöglichen, unterstützt jede Veranstaltung auf Antragsrot beliebig viele Antragstypen.
         Jeder Antragstyp hat einen eigenen Namen, Struktur, Berechtigungen usw. und jeder eingereichte Antrag gehört zu
         genau einem Antragstypen.</p>
     <p>Die verschiedenen Antragstypen können direkt unter „Einstellungen“ bei „Antragstypen bearbeiten“ verwaltet
         werden.</p>
 
     <h3 id="tagesordnung">Tagesordnungspunkte</h3>
-    <p>Tagesordnungen sind eine Funktion von Antragsgrün, die auf Wunsch aktiviert werden kann, aber nicht obligatorisch
+    <p>Tagesordnungen sind eine Funktion von Antragsrot, die auf Wunsch aktiviert werden kann, aber nicht obligatorisch
         ist.</p>
     <p>Wenn eine Tagesordnung verwendet wird, werden auch alle Anträge jeweils einem Tagesordnungspunkt zugeordnet.
         Daher arbeitet die Tagesordnung eng mit den Antragstypen zusammen: für jeden Tagesordnungspunkt kann (muss aber
@@ -186,7 +186,7 @@ $params = \Yii::$app->params;
 
     <h3 id="antragsteller_innen">Antragsteller*innen / Unterstützer*innen</h3>
     <p>Je nach Organisation und Veranstaltung gibt es unterschiedliche Voraussetzungen, die erfüllt sein müssen, um
-        einen (Änderungs-)Antrag zu stellen. Antragsgrün versucht, die wichtigsten Fälle abzudecken:</p>
+        einen (Änderungs-)Antrag zu stellen. Antragsrot versucht, die wichtigsten Fälle abzudecken:</p>
     <ul>
         <li>Im einfachsten Fall kann einfach von jeder und jedem ein Antrag eingereicht werden, evtl. gekoppelt an ein
             Login.
@@ -230,16 +230,16 @@ $params = \Yii::$app->params;
 
     <h3 id="login">Login / Berechtigungen</h3>
     <p>Funktionen wie das Stellen von Anträgen, das Kommentieren oder Unterstützen von Anträgen können auf eingeloggte
-        Mitglieder beschränkt werden. Antragsgrün unterstützt dabei grundsätzlich verschiedene verschiedene
+        Mitglieder beschränkt werden. Antragsrot unterstützt dabei grundsätzlich verschiedene verschiedene
         Login-Mechanismen.</p>
-    <p>Standardmäßig ist es möglich, sich mit seiner E-Mail-Adresse bei einer Antragsgrün-Version zu registrieren und
+    <p>Standardmäßig ist es möglich, sich mit seiner E-Mail-Adresse bei einer Antragsrot-Version zu registrieren und
         damit die entsprechenden Funktionen zu nutzen. Für geschlossene Benutzerkreise ist es möglich, das Login auf
         bekannte Mitglieder zu beschränken, also das selbstständige Registrieren mit einer neuen E-Mail-Adresse zu
         deaktivieren und stattdessen Einladungen an eine Liste an E-Mail-Adressen zu schicken. Diese Funktion findet
         sich unter „Einstellungen“ im Punkt „Login / Benutzer*innen / Admins“. Es muss der Punkt „Nur ausgewählten
         Benutzer*innen das Login erlauben“ aktiviert werden. Anschließend erscheint weiter unten der Punkt
         „Benutzer*innen-Accounts“, in dem neue Mitglieder eingeladen werden können.</p>
-    <p>Wenn Antragsgrün in Organisationen verwendet werden soll, die eine Single-Sign-On-Lösung verwenden, lässt sich
+    <p>Wenn Antragsrot in Organisationen verwendet werden soll, die eine Single-Sign-On-Lösung verwenden, lässt sich
         die Authentifizierung auf weitere Mechanismen ausweiten; produktiv kamen Bereits OpenID- sowie SAML-Konnektoren
         zum Einsatz. Für weitere Informationen schreiben Sie uns bitte einfach an.</p>
 
@@ -250,7 +250,7 @@ $params = \Yii::$app->params;
     <p>Die Einstellung hierfür sind zu finden unter: „Einstellungen“ → Antragstyp bearbeiten → Antragsschluss.</p>
 
     <h3 id="benachrichtigungen">Benachrichtigungen</h3>
-    <p>Antragsgrün bietet eine Reihe an Funktionen, Interessierte über relevante Ereignisse zu informieren. Alle
+    <p>Antragsrot bietet eine Reihe an Funktionen, Interessierte über relevante Ereignisse zu informieren. Alle
         Benachrichtigungen werden dabei per E-Mail versandt.</p>
     <p>Für Teilnehmer*innen sind die meisten Benachrichtigungen optional. Nachdem man sich mit seiner E-Mail-Adresse
         registriert hat, kann man auf der Startseite in der Sidebar den Punkt „E-Mail-Benachrichtigungen“ auswählen.
@@ -266,7 +266,7 @@ $params = \Yii::$app->params;
         der Startseite in der Sidebar rechts.</p>
 
     <h2 id="aes_uebernehmen">Änderungsanträge übernehmen / einpflegen</h2>
-    <p>Antragsgrün bietet mehrere Möglichkeiten, wie die in Änderungsanträgen vorgeschlagenen Änderungen in Anträge
+    <p>Antragsrot bietet mehrere Möglichkeiten, wie die in Änderungsanträgen vorgeschlagenen Änderungen in Anträge
         übernommen werden können. Es kann entweder ein einzelner Änderungsantrag übernommen werden, während andere
         Änderungsanträge zum Antrag aufrecht erhalten bleiben, oder es kann aus allen Änderungsanträgen eine gemeinsame
         neue Fassung des Antrags erstellt werden.</p>
@@ -331,7 +331,7 @@ $params = \Yii::$app->params;
         Verwerfen dieser Änderung die Passage wieder als regulären Text erscheinen lässt. Darüber hinaus kann der Text
         auch beliebig bearbeitet werden, um so beispielsweise redaktionelle Änderungswünsche einzupflegen.</p>
     <p>Allerdings kann es auch bei dieser Darstellungsart zu Komplikationen führen, wenn sich zwei Änderungsanträge auf
-        die selbe Stelle beziehen. Antragsgrün versucht dann, möglichst viele der Änderungen innerhalb des Fließtextes
+        die selbe Stelle beziehen. Antragsrot versucht dann, möglichst viele der Änderungen innerhalb des Fließtextes
         darzustellen. Diejenigen, bei denen das nicht möglich ist, werden unterhalb des betroffenen Absatzes als
         „Kollidierender Änderungsantrag“ dargestellt. Der Konflikt muss letztlich redaktionell aufgelöst werden, der
         kollidierende Absatz anschließend gelöscht.</p>
@@ -380,7 +380,7 @@ $params = \Yii::$app->params;
 
     <h3 id="export_tabelle">Änderungsanträge in Tabellenform</h3>
     <p>Manche Programmkommissionen bevorzugen eine Darstellung aller Änderungsanträge einer Veranstaltung mitsamt den
-        beantragten Änderungen in einem Tabellendokument. Dafür unterstützt Antragsgrün den Export aller
+        beantragten Änderungen in einem Tabellendokument. Dafür unterstützt Antragsrot den Export aller
         Änderungsanträge in ein OpenDocument Spreadsheet-Dokument, das z.B. mit OpenOffice oder LibreOffice leicht
         bearbeitet werden kann.</p>
     <p>Den Export gibt es für Admins der Veranstaltung im Menüpunkt „Antragsliste“.</p>
@@ -388,8 +388,8 @@ $params = \Yii::$app->params;
     <h3 id="export_openslides">Openslides / CSV</h3>
     <p>Die OpenSource-Software OpenSlides wird von vielen Organisationen gerne für die Veranstaltungsorganisation direkt
         vor Ort eingesetzt, z.B. um Anträge auf dem Beamer darzustellen, Redelisten zu führen und Wahlen zu
-        protokollieren. Daher bietet Antragsgrün auch einen CSV-Export, der speziell auf das Import-Format von
-        OpenSlides angepasst ist. Anträge und Änderungsanträge, die im Vorfeld einer Tagung in Antragsgrün eingereicht
+        protokollieren. Daher bietet Antragsrot auch einen CSV-Export, der speziell auf das Import-Format von
+        OpenSlides angepasst ist. Anträge und Änderungsanträge, die im Vorfeld einer Tagung in Antragsrot eingereicht
         und vorbereitet wurden, können so kurz vor der Tagung leicht in einen bestehenden Openslides-Ablauf integriert
         werden.</p>
     <p>Den Export gibt es für Admins der Veranstaltung im Menüpunkt „Antragsliste“.</p>
@@ -402,11 +402,11 @@ $params = \Yii::$app->params;
 
     <h2 id="weitere_funktionen">Weitere Funktionen</h2>
     <h3 id="layout">Layout-Anpassbarkeit</h3>
-    <p>Verschiedene Aspekte des Layouts von Antragsgrün lassen sich über das Administrationsinterface anpassen – die
+    <p>Verschiedene Aspekte des Layouts von Antragsrot lassen sich über das Administrationsinterface anpassen – die
         meisten davon unter „Einstellungen“ → „Diese Veranstaltung“ → „Aussehen“.</p>
     <p>Am stärksten wirkt sich die „Layout“-Einstellung aus: sie verändert das komplette Aussehen der Seite und wird
         genutzt, um eine entwickelte Anpassung an ein Corporate Design zu aktivieren. Neben dem
-        „Antragsgrün-Standard“-Layout gibt es derzeit Layouts, die teils für den Deutschen Bundesjugendring, teils für
+        „Antragsrot-Standard“-Layout gibt es derzeit Layouts, die teils für den Deutschen Bundesjugendring, teils für
         Bündnis 90 / Die Grünen entwickelt wurden. Weitere grundlegend andere Layouts können entweder von halbwegs
         versierten Web-Entwickler*innen selbst entwickelt werden (siehe „<a
                 href="https://github.com/CatoTH/antragsgruen">Developing custom themes</a>“), oder bei uns in Auftrag
@@ -421,17 +421,17 @@ $params = \Yii::$app->params;
 
     <h3 id="zeilennummerierung">Zeilennummerierung</h3>
     <p>Für viele Organisationen, die mit vielen Anträgen arbeiten, ist ein konsistentes Zeilennummerierungssystem
-        essenziell wichtig. Bei Antragsgrün wird daher großer Wert darauf gelegt, das überall zu berücksichtigen: die
+        essenziell wichtig. Bei Antragsrot wird daher großer Wert darauf gelegt, das überall zu berücksichtigen: die
         maximale Länge einer Zeile lässt sich einmal festlegen („Einstellungen“ → „Diese Veranstaltung“ → „Maximale
         Zeilenlänge“) und wird überall berücksichtigt: bei der Anzeige der Anträge, dem PDF-Download und dem Export in
         Textverarbeitung-Dokumente, und auch in der Einleitung von Änderungsanträgen („Einfügung in Zeile ##“) wird die
         Zeilennummerierung automatisch richtig ermittelt, um Fehler zu vermeiden.</p>
-    <p>Wird über Antragsgrün ein Programmentwurf diskutiert, der in mehrere Kapitel unterteilt wird, die aber
+    <p>Wird über Antragsrot ein Programmentwurf diskutiert, der in mehrere Kapitel unterteilt wird, die aber
         durchgehend durchnummeriert werden sollen, kann dies explizit aktiviert werden: unter „Einstellungen“ → „diese
         Veranstaltung“ → „Anträge“ → „Zeilennummerierung durchgehend für die ganze Veranstaltung“.</p>
 
     <h3 id="redaktionelle_aes">Redaktionelle Änderungsanträge</h3>
-    <p>Für manche Änderungsanträge eignet sich das „eigentliche“ Prinzip der Änderungsanträge bei Antragsgrün nur
+    <p>Für manche Änderungsanträge eignet sich das „eigentliche“ Prinzip der Änderungsanträge bei Antragsrot nur
         eingeschränkt: sollen beispielsweise in einem gesamten langen Antrag sämtliche Vorkommnisse eines Begriffs durch
         einen anderen Begriff ersetzt werden, wäre es mühselig und unübersichtlich, als Antragsteller*in jeden Begriff
         einzeln zu ersetzen. Für solche Fälle gibt es die Möglichkeit, redaktionelle Änderungsanträge zu stellen: hier
@@ -443,7 +443,7 @@ $params = \Yii::$app->params;
 
     <h3 id="antragskuerzel">Antragskürzel</h3>
     <p>Es ist gängige Praxis bei vielen Konferenzen, dass alle Anträge und Änderungsanträge eindeutige Kürzel versehen
-        bekommen – z.B. „A1“ für Antrag Nr. 1 oder „Ä2“ für Änderungsantrag Nr. 2. Antragsgrün unterstützt sowohl die
+        bekommen – z.B. „A1“ für Antrag Nr. 1 oder „Ä2“ für Änderungsantrag Nr. 2. Antragsrot unterstützt sowohl die
         automatische als auch händische Vergabe dieser Kürzel nach verschiedenen Schemata.</p>
     <p>Für Anträge wird im Antragstyp ein Basis-Kürzel gesetzt, im oberen Fall z.B. „A“. Alle Anträge dieses Typs, die
         eingereicht werden, werden standardmäßig damit durchnummeriert – also „A1“, „A2“ usw.. Das Kürzel eines Antrags
@@ -501,14 +501,14 @@ $params = \Yii::$app->params;
         sammeln“-Phase verwendet, die weiter oben beschrieben wurde)</p>
 
     <h3 id="uebersetzen">Übersetzung der Seite / Anpassungen des Wordings</h3>
-    <p>Antragsgrün unterstützt drei Stufen der sprachlichen Anpassung:</p>
+    <p>Antragsrot unterstützt drei Stufen der sprachlichen Anpassung:</p>
     <ul>
-        <li>Pro Veranstaltung lassen sich sämtliche Texte auf der Oberfläche von Antragsgrün über die
+        <li>Pro Veranstaltung lassen sich sämtliche Texte auf der Oberfläche von Antragsrot über die
             Administrations-Oberfläche anpassen, unter „Einstellungen“ → „Sprache anpassen“. Diese Möglichkeit lässt
             sich beispielsweise dazu verwenden, einzelne Begriffe anzupassen, E-Mail-Texte zu ändern, vom „Du“ auf das
             „Sie“ zu wechseln oder eine andere Form der geschlechtergerechten Sprache einzubauen.
         </li>
-        <li>Komplette Übersetzungen: Antragsgrün ist darauf ausgelegt, in beliebige Sprachen übersetzt werden zu können
+        <li>Komplette Übersetzungen: Antragsrot ist darauf ausgelegt, in beliebige Sprachen übersetzt werden zu können
             – aktuell gibt es eine englische, deutsche und französische Sprachfassung. Dies ist allerdings nicht mehr über eine
             Web-Oberfläche möglich, sondern erfordert Eingriffe in den Programmcode. Falls Sie eine Übersetzung planen,
             kontaktieren Sie uns einfach, wir helfen hier gerne (und würden uns freuen, wenn die Übersetzung dann auch
@@ -521,7 +521,7 @@ $params = \Yii::$app->params;
             Unterscheidungen wie „Englisch (britisch)“ und „Englisch (US)“. Auch diese Variante erfordert einen Eingriff
             in den Programmcode. Der wichtigste Unterschied zur Eingabe über die Web-Oberfläche (Punkt 1) ist, dass die
             Übersetzung dann allen Veranstaltungen zur Verfügung steht, und Bestandteil der offiziellen
-            Antragsgrün-Distribution werden kann.<br>
+            Antragsrot-Distribution werden kann.<br>
             Welche Sprachvariante verwendet werden soll, kann pro Veranstaltung unter „Einstellungen“ → „Sprache
             anpassen“ → „Basis-Sprachversion“ ausgewählt werden.
         </li>

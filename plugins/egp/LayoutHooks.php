@@ -116,7 +116,7 @@ class LayoutHooks extends Hooks
 
         $ariaVersion = str_replace('%VERSION%', ANTRAGSGRUEN_VERSION, \Yii::t('base', 'aria_version_hint'));
         $out         .= '<span class="version">';
-        $out         .= '<a href="https://discuss.green/">Discuss.green / Antragsgrün</a>, Version ' .
+        $out         .= '<a href="https://discuss.green/">Discuss.green / Antragsrot</a>, Version ' .
                         Html::a(Html::encode(ANTRAGSGRUEN_VERSION), ANTRAGSGRUEN_HISTORY_URL, ['aria-label' => $ariaVersion]);
         $out         .= '</span>';
 

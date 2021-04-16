@@ -9,7 +9,7 @@ use yii\helpers\Html;
  * @var Site[] $site
  */
 
-$this->title = 'Antragsgrün - Motion.Tools - Managing motions and amendments online';
+$this->title = 'Antragsrot - Motion.Tools - Managing motions and amendments online';
 /** @var \app\controllers\Base $controller */
 $controller  = $this->context;
 $controller->layoutParams->addCSS('css/manager.css');
@@ -20,13 +20,13 @@ $controller->layoutParams->alternateLanuages = ['de' => 'https://antragsgruen.de
 $params = \Yii::$app->params;
 
 ?>
-<h1>Antragsgrün / Motion.Tools<br>
+<h1>Antragsrot / Motion.Tools<br>
     <small>The Online Motion Administration for Associations Conventions, General Assemblies and Party Conventions.
     </small>
 </h1>
 
 <div class="content infoSite">
-    <p>Antragsgrün offers a clear and efficient tool for the effective administration of motions, amendments and
+    <p>Antragsrot offers a clear and efficient tool for the effective administration of motions, amendments and
         candidacies: from submission to administration and print template.</p>
 
     <p>A number of organisations are already using the tool successfully such as the federal association of the German
@@ -86,7 +86,7 @@ $params = \Yii::$app->params;
     <h2 id="selbst_nutzen" class="green">Pricing / Testing</h2>
 
     <div class="content infoSite">
-        <p>Antragsgrün is open source software and can be installed for free on servers. The source code is available on <a
+        <p>Antragsrot is open source software and can be installed for free on servers. The source code is available on <a
                 href="https://github.com/CatoTH/antragsgruen">Github</a>. On request, we can offer professional support.
         </p>
 
@@ -100,7 +100,7 @@ $params = \Yii::$app->params;
 
         <p style="margin-top: 35px;"><strong>Are there functions missing?
                 Do you require professional support and special adaptations?</strong></p>
-        <p>If you need customised programming or you would like us to host Antragsgrün on a designated domain, we implement
+        <p>If you need customised programming or you would like us to host Antragsrot on a designated domain, we implement
             this at an hourly rate.</p>
         <p>
             We are here to answer your questions and requests:

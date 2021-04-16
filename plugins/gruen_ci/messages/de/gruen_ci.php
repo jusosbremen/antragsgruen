@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'antragsgruen' => 'Antragsgrün',
+    'antragsgruen' => 'Antragsrot',
     'search'       => 'Suchen',
 ];

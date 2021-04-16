@@ -99,7 +99,7 @@ $motionId     = AcceptanceTester::FIRST_FREE_MOTION_ID;
 $motionPrefix = AcceptanceTester::FIRST_FREE_MOTION_TITLE_PREFIX;
 
 $I->wantTo('check the visible data');
-$I->see('Hallo auf Antragsgrün');
+$I->see('Hallo auf Antragsrot');
 $I->see('Testantrag 2');
 $I->click('.motionLink' . $motionId);
 $I->see(mb_strtoupper($motionPrefix . ': Testantrag 2'), 'h1');

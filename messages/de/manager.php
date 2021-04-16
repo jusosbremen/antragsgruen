@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title_install'           => 'Antragsgrün einrichten',
+    'title_install'           => 'Antragsrot einrichten',
     'err_settings_ro'         => 'Die Einstellungen können nicht bearbeitet werden, da die Datei config/config.json nicht bearbeitbar ist.
     <br>Das lässt sich mit folgendem Befehl (oder ähnlich, je nach Betriebssystem) auf der Kommandozeile beheben:',
-    'err_php_version'         => 'Antragsgrün benötigt PHP mindestens in der Version 5.6, besser 7.0 oder höher. Aktuell läuft die Version %VERSION%. Kontaktieren Sie den Systemadministrator, um auf eine aktuelle PHP-Version zu aktualisieren.',
+    'err_php_version'         => 'Antragsrot benötigt PHP mindestens in der Version 5.6, besser 7.0 oder höher. Aktuell läuft die Version %VERSION%. Kontaktieren Sie den Systemadministrator, um auf eine aktuelle PHP-Version zu aktualisieren.',
     'language'                => 'Sprache',
     'default_dir'             => 'Standard-Verzeichnis',
     'tmp_dir'                 => 'Temporäres Verzeichis',
@@ -74,11 +74,11 @@ return [
     'site_err_subdomain'      => 'Diese Subdomain wird bereits verwendet.',
     'site_err_contact'        => 'Du musst eine Kontaktadresse angeben.',
 
-    'done_title' => 'Antragsgrün installieren',
+    'done_title' => 'Antragsrot installieren',
     'done_no_del_msg' => 'Um den Installationsmodus zu beenden, lösche die Datei config/INSTALLING.
                 Je nach Betriebssystem könnte der Befehl dazu z.B. folgendermaßen lauten:<pre>%DELCMD%</pre>
                 Rufe danach diese Seite hier neu auf.',
     'done_nextstep' => 'Alles klar! Du kannst nun im Folgenden noch ein paar Detaileinstellungen vornehmen.
-                Die Antragsgrün-Version ist nun unter folgender Adresse erreichbar: %LINK%',
+                Die Antragsrot-Version ist nun unter folgender Adresse erreichbar: %LINK%',
     'done_goto_site' => 'Zur Seite',
 ];

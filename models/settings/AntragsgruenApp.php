@@ -25,7 +25,7 @@ class AntragsgruenApp implements \JsonSerializable
     public $prependWWWToSubdomain = true;
     public $confirmEmailAddresses = true;
     public $dataPrivacyCheckbox   = false;
-    public $mailFromName          = 'Antragsgrün';
+    public $mailFromName          = 'Antragsrot';
     public $mailFromEmail         = '';
     public $adminUserIds          = [];
     public $siteBehaviorClasses   = [];

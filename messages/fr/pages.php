@@ -4,7 +4,7 @@ return [
     'content_privacy_title' => 'Déclaration concernant la vie privée',
     'content_privacy_bread' => 'Vie privée',
     'content_welcome'       => 'Bienvenue',
-    'content_welcome_text'  => '<p>Bienvenue sur Antragsgrün</p>',
+    'content_welcome_text'  => '<p>Bienvenue sur Antragsrot</p>',
     'content_imprint_title' => 'Imprint',
     'content_imprint_bread' => 'Imprint',
     'content_help_title'    => 'Aide',

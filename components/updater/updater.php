@@ -105,7 +105,7 @@ if (isset($_POST['perform_update'])) {
 }
 
 if (isset($_REQUEST['msg_updated'])) {
-    $success[] = 'Antragsgrün has been updated. Please check below if a database upgrade is necessary. ' .
+    $success[] = 'Antragsrot has been updated. Please check below if a database upgrade is necessary. ' .
         'If so, please perform this upgrade before disabling the update mode again.<br><br>' .
         'Once everything is done, you can leave the update mode again.';
 }

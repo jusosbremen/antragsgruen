@@ -126,8 +126,8 @@ return [
     'sandbox_dummy_contact' => 'Test contact',
     'sandbox_dummy_orga'    => 'Organiszation X',
     'sandbox_dummy_title'   => 'Test event',
-    'sandbox_dummy_welcome' => '<h2>Welcome to Antragsgrün!</h2><br><br>
-                                On this sandbox site, you can freely test all Antragsgrün features.
+    'sandbox_dummy_welcome' => '<h2>Welcome to Antragsrot!</h2><br><br>
+                                On this sandbox site, you can freely test all Antragsrot features.
                                 Everyone can access this site using this URL:<br><br>
                                 <blockquote><strong><a href="%SITE_URL%">%SITE_URL%</a></strong></blockquote>
                                 <br><br>

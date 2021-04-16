@@ -72,7 +72,7 @@ class LayoutHooks extends Hooks
             \Yii::t('base', 'privacy_statement') . '</a>';
 
         $out .= '<span class="version">';
-        $out .= '<a href="https://discuss.green/">Antragsgrün</a>, Version ' .
+        $out .= '<a href="https://discuss.green/">Antragsrot</a>, Version ' .
             Html::a(Html::encode(ANTRAGSGRUEN_VERSION), ANTRAGSGRUEN_HISTORY_URL);
         $out .= '</span>';
 
@@ -118,7 +118,7 @@ class LayoutHooks extends Hooks
         <div class="content">
             Du you want to use Discuss.green for your own convention?
             <div>
-                <a href="https://discuss.green/" aria-label="Information about using Discuss.green / Antragsgrün" class="btn btn-primary">
+                <a href="https://discuss.green/" aria-label="Information about using Discuss.green / Antragsrot" class="btn btn-primary">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Information
                 </a>
             </div>

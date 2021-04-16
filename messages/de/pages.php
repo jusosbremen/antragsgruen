@@ -11,7 +11,7 @@ return [
     'content_privacy_title' => 'Datenschutzerklärung',
     'content_privacy_bread' => 'Datenschutz',
     'content_welcome'       => 'Willkommen',
-    'content_welcome_text'  => '<p>Hallo auf Antragsgrün</p>',
+    'content_welcome_text'  => '<p>Hallo auf Antragsrot</p>',
     'content_imprint_title' => 'Impressum',
     'content_imprint_bread' => 'Impressum',
     'content_help_title'    => 'Hilfe',
@@ -24,7 +24,7 @@ return [
     'content_login_post'    => 'Login (unten)',
     'content_feeds_title'   => 'RSS-Feeds',
     'content_feeds_text'    => '<p>RSS-Feeds sind eine Möglichkeit, bequem über neue Artikel auf einer Vielzahl verschiedener Seiten auf dem Laufenden zu halten.</p>
-        <p>Man abonniert dabei mit einem Programm die Feeds aller Nachrichtenseiten, Blogs, Web-Comics, oder eben auch Antragsgrün-Seiten, die einen interessieren.</p>
+        <p>Man abonniert dabei mit einem Programm die Feeds aller Nachrichtenseiten, Blogs, Web-Comics, oder eben auch Antragsrot-Seiten, die einen interessieren.</p>
         <p>Ab dann bekommt man in diesem Programm automatisch eine Übersicht aller neuen Artikel, die auf diesen Seiten veröffentlicht wurden.</p>
         <p>Eine kleine Auswahl solcher Programme und Lesedienste:</p>
         <ul>

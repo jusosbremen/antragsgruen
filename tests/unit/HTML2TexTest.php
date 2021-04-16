@@ -121,7 +121,7 @@ class HTML2TexTest extends TestBase
 
     public function testLinks()
     {
-        $orig   = 'Test <a href="https://www.antragsgruen.de/">Antragsgrün</a> Ende';
+        $orig   = 'Test <a href="https://www.antragsgruen.de/">Antragsrot</a> Ende';
         $expect = 'Test \href{https://www.antragsgruen.de/}{Antragsgr\"un} Ende';
 
         $out = Exporter::encodeHTMLString($orig);

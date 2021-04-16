@@ -123,7 +123,7 @@ $params = \Yii::$app->params;
 
 <h2 id="create_version" class="green">Use it</h2>
 <div class="content">
-    <p>Discuss.green / Antragsgrün is open source software and can be installed on any web server that supports PHP and MySQL.</p>
+    <p>Discuss.green / Antragsrot is open source software and can be installed on any web server that supports PHP and MySQL.</p>
     <p>
         For european green parties, we provide <strong>free hosting</strong> of sites on this domain.
         You can start using or evaluating this tool by answering a couple of questions about your use case and providing
@@ -159,7 +159,7 @@ $params = \Yii::$app->params;
 <div class="content infoSite">
     <p style="margin-top: 35px;"><strong>Are there functions missing?
             Do you require professional support and special adaptations?</strong></p>
-    <p>If you need customised programming or you would like us to host Antragsgrün / Discuss.green on a designated
+    <p>If you need customised programming or you would like us to host Antragsrot / Discuss.green on a designated
         domain, we implement this at an hourly rate.</p>
     <p>
         We are here to answer your questions and requests:

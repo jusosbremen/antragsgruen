@@ -23,7 +23,7 @@ return [
     'err_unknown_ww_repeat'     => 'An unknown error occurred.',
     'err_no_recovery'           => 'No recovery request was sent within the last 24 hours.',
     'err_change_toolong'        => 'The request is too old; please request another change request and confirm the e-mail within 24 hours',
-    'recover_mail_title'        => 'Antragsgrün: Password recovery',
+    'recover_mail_title'        => 'Antragsrot: Password recovery',
     'recover_mail_body'         => "Hi!\n\nYou requested a password recovery. " .
         "To proceed, please open the following page and enter the new password:\n\n%URL%\n\n" .
         "Or enter the following code on the recovery page: %CODE%",
@@ -48,20 +48,20 @@ return [
     'del_confirm'               => 'Confirm delete',
     'del_do'                    => 'Delete',
     'noti_greeting'             => 'Hi %NAME%,',
-    'noti_bye'                  => "Kind regards,\n   The Antragsgrün Team\n\n--\n\n" .
+    'noti_bye'                  => "Kind regards,\n   The Antragsrot Team\n\n--\n\n" .
         "If you do not want to receive any more e-mails, you can unsubscribe here:\n",
-    'noti_new_motion_title'     => '[Antragsgrün] New motion:',
+    'noti_new_motion_title'     => '[Antragsrot] New motion:',
     'noti_new_motion_body'      => "A new motion was submitted:\nConsultation: %CONSULTATION%\n" .
         "Name: %TITLE%\nProposer: %INITIATOR%\nLink: %LINK%",
-    'noti_new_amend_title'      => '[Antragsgrün] New amendment for %TITLE%',
+    'noti_new_amend_title'      => '[Antragsrot] New amendment for %TITLE%',
     'noti_new_amend_body'       => "A new amendment was submitted:\nConsultation: %CONSULTATION%\n" .
         "Motion: %TITLE%\nLink: %LINK%",
     'noti_amend_mymotion'       => "A new amendment has been published to your motion:\nConsultation: %CONSULTATION%\n" .
         "Motion: %TITLE%\nProposer: %INITIATOR%\nLink: %LINK%\n%MERGE_HINT%",
     'noti_amend_mymotion_merge' => "\nIf you agree with this amendment, you can adopt the changes (\"Adopt changes into motion\" in the sidebar)",
-    'noti_new_comment_title'    => '[Antragsgrün] New comment to %TITLE%',
+    'noti_new_comment_title'    => '[Antragsrot] New comment to %TITLE%',
     'noti_new_comment_body'     => "%TITLE% was commented:\n%LINK%",
-    'acc_grant_email_title'     => 'Antragsgrün access',
+    'acc_grant_email_title'     => 'Antragsrot access',
     'acc_grant_email_userdata'  => "E-mail / username: %EMAIL%\nPassword: %PASSWORD%",
 
     'login_title'             => 'Login',
@@ -99,17 +99,17 @@ return [
     'create_err_noname'       => 'Please enter your name.',
     'err_contact_required'    => 'You need to enter a contact address.',
 
-    'create_emailconfirm_title' => 'Registration at Antragsgrün / motion.tools',
+    'create_emailconfirm_title' => 'Registration at Antragsrot / motion.tools',
     'create_emailconfirm_msg'   =>
         "Hi,\n\nplease click on the following link to confirm your account:\n" .
         "%BEST_LINK%\n\n"
         . "...or enter the following code on the site: %CODE%\n\n"
-        . "With kind regards,\n\tTeam Antragsgrün",
+        . "With kind regards,\n\tTeam Antragsrot",
 
     'access_denied_title'  => 'No access',
     'access_denied_body'   => 'You don\' have access to this site.',
     'access_granted_email' => "Hi,\n\nYou just got access to: %LINK%\n\n"
-        . "With kind regards,\n\tTeam Antragsgrün",
+        . "With kind regards,\n\tTeam Antragsrot",
 
     'confirm_title'     => 'Confirm your account',
     'confirm_username'  => 'E-mail-address / username',

@@ -8,7 +8,7 @@ $I->populateDBData1();
 
 $I->wantTo('see the ad');
 $I->gotoConsultationHome();
-$I->see(mb_strtoupper('Dein Antragsgrün'), '#sidebar');
+$I->see(mb_strtoupper('Dein Antragsrot'), '#sidebar');
 
 
 $I->wantTo('deactivate the ad');
@@ -20,7 +20,7 @@ $site->setSettings($settings);
 $site->save();
 
 $I->gotoConsultationHome();
-$I->dontSee(mb_strtoupper('Dein Antragsgrün'), '#sidebar');
+$I->dontSee(mb_strtoupper('Dein Antragsrot'), '#sidebar');
 
 
 $I->wantTo('activate the ad again');
@@ -32,4 +32,4 @@ $site->setSettings($settings);
 $site->save();
 
 $I->gotoConsultationHome();
-$I->see(mb_strtoupper('Dein Antragsgrün'), '#sidebar');
+$I->see(mb_strtoupper('Dein Antragsrot'), '#sidebar');

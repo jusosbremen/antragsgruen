@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title_install'           => 'Install Antragsgrün',
+    'title_install'           => 'Install Antragsrot',
     'err_settings_ro'         => 'The settings cannot be changed as config/config.json is not writable.
     <br>You can fix that by the following (or a similar) command on the command line:',
-    'err_php_version'         => 'Antragsgrün needs a PHP version of at least 5.6, with 7.0 or greater being recommended. You can try to install with your current version (%VERSION%), however problems will probably occur rather sooner than later. Please contact your system administrator on how to upgrade to a current version of PHP.',
+    'err_php_version'         => 'Antragsrot needs a PHP version of at least 5.6, with 7.0 or greater being recommended. You can try to install with your current version (%VERSION%), however problems will probably occur rather sooner than later. Please contact your system administrator on how to upgrade to a current version of PHP.',
     'language'                => 'Language',
     'default_dir'             => 'Default directory',
     'tmp_dir'                 => 'Temporary directory',
@@ -74,11 +74,11 @@ return [
     'mailgun_api'             => 'Mailgun\'s API-Key',
     'mailgun_domain'          => 'E-mail domain',
 
-    'done_title' => 'Antragsgrün installed',
+    'done_title' => 'Antragsrot installed',
     'done_no_del_msg' => 'Please delete the file config/INSTALLING to finish the installation.
                 Depending on the operating system, the command for this is something like:<pre>%DELCMD%</pre>
                 After doing so, reload this page.',
     'done_nextstep' => 'Great! Now you can set up some more details.
-                Antragsgrün is now available at the following address: %LINK%',
+                Antragsrot is now available at the following address: %LINK%',
     'done_goto_site' => 'Go to the site',
 ];

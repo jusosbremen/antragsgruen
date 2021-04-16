@@ -52,7 +52,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
                                            "Du wirst dann gesondert darüber benachrichtigt.\n\n" .
                                            "Du kannst ihn hier einsehen: %LINK%\n\n" .
                                            "Mit freundlichen Grüßen,\n" .
-                                           "  Das Antragsgrün-Team",
+                                           "  Das Antragsrot-Team",
     'submitted_screening_email_subject' => 'Änderungsantrag eingereicht',
     'screened_hint'                     => 'Geprüft',
     'amend_for'                         => ' zu ',
@@ -63,7 +63,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
     'support_collect_explanation'       => 'Änderungsanträge, die nicht von Gremien gestellt werden, müssen mindestens %MIN% Unterstützer*innen finden, um zugelassen zu werden. Um einen solchen Änderungsantrag einzureichen, gehe wie folgt vor:<br>
 <ol>
 <li><strong>Entwurf</strong>: Trage zunächst hier den Änderungsantrag ein und hinterlege deine Kontaktdaten. Bestätige auf der nächsten Seite, das du den Änderungsantrag einbringen willst.</li>
-<li><strong>Untertützung</strong>: Du erhältst dann einen Link, den du an potentielle Interessierte schicken kannst. Jeder, der den Link kennt, kann den Entwurf einsehen. Jede*r Delegierte*r kann den Änderungsantrag nun hier auf Antragsgrün unterstützen.</li>
+<li><strong>Untertützung</strong>: Du erhältst dann einen Link, den du an potentielle Interessierte schicken kannst. Jeder, der den Link kennt, kann den Entwurf einsehen. Jede*r Delegierte*r kann den Änderungsantrag nun hier auf Antragsrot unterstützen.</li>
 <li><strong>Änderungsantrag einbringen</strong>: Sobald sich %MIN% Unterstützer*innen gefunden haben, bekommst du eine Benachrichtigungs-E-Mail. Ab dann kannst du den Änderungsantrag offiziell einbringen. Auch danach ist es noch möglich, dass sich Unterstützer*innen für diesen Änderungsantrag eintragen.</li>
 </ol>',
     'editorial_hint'                    => 'Redaktionelle Änderung',
@@ -177,10 +177,10 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
     'button_correct'                  => 'Korrigieren',
     'confirm'                         => 'Bestätigen',
     'go_on'                           => 'Weiter',
-    'published_email_body'            => "Hallo,\n\ndein Änderungsantrag zu „%MOTION%“ wurde soeben auf Antragsgrün veröffentlicht. " .
+    'published_email_body'            => "Hallo,\n\ndein Änderungsantrag zu „%MOTION%“ wurde soeben auf Antragsrot veröffentlicht. " .
                                          "Du kannst ihn hier einsehen: %LINK%\n\n" .
                                          "Mit freundlichen Grüßen,\n" .
-                                         "  Das Antragsgrün-Team",
+                                         "  Das Antragsrot-Team",
     'published_email_title'           => 'Änderungsantrag veröffentlicht',
     'sidebar_adminedit'               => 'Admin: bearbeiten',
     'sidebar_back'                    => 'Zurück zum Antrag',
@@ -223,7 +223,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
     'support_collection_hint_female'  => 'Dieser Änderungsantrag ist noch nicht eingereicht. Nötig sind <strong>mindestens %MIN% Unterstützer*innen, davon %MIN_F% Frauen (aktueller Stand: %CURR% / %CURR_F%)</strong>. Wenn du ihn unterstützen willst, kannst du das unten auf dieser Seite tun.',
     'support_collection_reached_hint' => 'Dieser Änderungsantrag ist noch nicht eingereicht. <strong>Die Mindestzahl an Unterstützer*innen (%MIN%) wurde erreicht</strong>, nun muss nur noch die/der Antragsteller*in die Einreichung bestätigen.',
     'support_reached_email_subject'   => 'Dein Änderungsantrag: Unterstützer*innen-Anzahl erreicht',
-    'support_reached_email_body'      => 'Hallo %NAME_GIVEN%,<br><br>Gute Nachrichten! Dein Änderungsantrag „%TITLE%“ hat die Mindestzahl an Unterstützer*innen erreicht.<br><br>Jetzt bist du noch einmal am Zug. Bitte reiche deinen Antrag nun offiziell bei der Antragskommission ein. Dies kannst du über Antragsgrün unter dem folgenden Link machen:<br><br><strong>%LINK%</strong><br><br>Der Antrag wird zeitnah nach einer formalen Prüfung im Antragsgrün veröffentlicht. <br><br>Viele Grüße,<br>  Das Antragsgrün-Team',
+    'support_reached_email_body'      => 'Hallo %NAME_GIVEN%,<br><br>Gute Nachrichten! Dein Änderungsantrag „%TITLE%“ hat die Mindestzahl an Unterstützer*innen erreicht.<br><br>Jetzt bist du noch einmal am Zug. Bitte reiche deinen Antrag nun offiziell bei der Antragskommission ein. Dies kannst du über Antragsrot unter dem folgenden Link machen:<br><br><strong>%LINK%</strong><br><br>Der Antrag wird zeitnah nach einer formalen Prüfung im Antragsrot veröffentlicht. <br><br>Viele Grüße,<br>  Das Antragsrot-Team',
     'support_finish_btn'              => 'Änderungsantrag offiziell einreichen',
     'support_finish_err'              => 'Das ist derzeit (noch) nicht möglich',
     'support_finish_done'             => 'Der Änderungsantrag ist nun offiziell eingereicht',
@@ -340,18 +340,18 @@ Bitte beachte, dass sich die Unterstützer*innen deines Änderungsantrags mit ih
                                     "die Programmkommission hat über deinen Änderungsantrag beraten und will vorschlagen, ihn modifiziert zu übernehmen.\n\n" .
                                     "Bitte überprüfe unter folgendem Link, ob du mit der modifizierten Übernahme so einverstanden bist:\n%LINK%\n\n" .
                                     "Mit freundlichen Grüßen,\n" .
-                                    "  Das Antragsgrün-Team",
+                                    "  Das Antragsrot-Team",
     'proposal_email_accepted'    => "Hallo %NAME_GIVEN%,\n\n" .
                                     "zu Deiner Information: die Programmkommission wird vorschlagen, deinen Änderungsantrag zu übernehmen.\n\n" .
                                     "Du kannst ihn hier einsehen: %LINK%\n\n" .
                                     "Mit freundlichen Grüßen,\n" .
-                                    "  Das Antragsgrün-Team",
+                                    "  Das Antragsrot-Team",
     'proposal_email_other'       => "Hallo %NAME_GIVEN%,\n\n" .
                                     "die Programmkommission hat einen Verfahrensvorschlag für deinen Änderungsantrag erarbeitet.\n\n" .
                                     "Bitte überprüfe unter folgendem Link, ob du damit einverstanden bist:\n%LINK%\n\n" .
                                     "Hinweis: wenn du den eben genannten Link weiterleitest, kann die empfangende Person den Vorschlag damit ebenfalls einsehen und ggf. bestätigen.\n\n" .
                                     "Mit freundlichen Grüßen,\n" .
-                                    "  Das Antragsgrün-Team",
+                                    "  Das Antragsrot-Team",
     'proposal_user_agree'        => 'Ich stimme dem Verfahrensvorschlag zu',
     'proposal_user_agreed'       => 'Du hast dem Verfahrensvorschlag zugestimmt',
     'proposal_user_disagree_h'   => 'Wenn du dem Verfahrensvorschlag nicht zustimmst, wende dich bitte umgehend an die Antragskommission.',

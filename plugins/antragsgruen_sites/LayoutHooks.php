@@ -78,11 +78,11 @@ class LayoutHooks extends Hooks
         $out .= '<span class="version">';
         if (\Yii::$app->language === 'de') {
             $ariaVersion = str_replace('%VERSION%', ANTRAGSGRUEN_VERSION, \Yii::t('base', 'aria_version_hint'));
-            $out         .= '<a href="https://antragsgruen.de/" aria-label="' . \Yii::t('base', 'aria_antragsgruen') . '">Antragsgrün</a>, Version ' .
+            $out         .= '<a href="https://antragsgruen.de/" aria-label="' . \Yii::t('base', 'aria_antragsgruen') . '">Antragsrot</a>, Version ' .
                             Html::a(Html::encode(ANTRAGSGRUEN_VERSION), ANTRAGSGRUEN_HISTORY_URL, ['aria-label' => $ariaVersion]);
         } else {
             $ariaVersion = str_replace('%VERSION%', ANTRAGSGRUEN_VERSION, \Yii::t('base', 'aria_version_hint'));
-            $out         .= '<a href="https://motion.tools/" aria-label="' . \Yii::t('base', 'aria_antragsgruen') . '">Antragsgrün</a>, Version ' .
+            $out         .= '<a href="https://motion.tools/" aria-label="' . \Yii::t('base', 'aria_antragsgruen') . '">Antragsrot</a>, Version ' .
                             Html::a(Html::encode(ANTRAGSGRUEN_VERSION), ANTRAGSGRUEN_HISTORY_URL, ['aria-label' => $ariaVersion]);
         }
         $out .= '</span>';
@@ -99,7 +99,7 @@ class LayoutHooks extends Hooks
             <h2>Verfügbarkeit, Support</h2>
         </header>
         <main>
-            Wenn für eine Veranstaltung eine garantierte Verfügbarkeit von Antragsgrün und professioneller Support
+            Wenn für eine Veranstaltung eine garantierte Verfügbarkeit von Antragsrot und professioneller Support
             benötigt wird, setzt euch bitte frühzeitig <a href="https://antragsgruen.de/#support">mit uns in Kontakt</a>!
         </main>
     </article>';
