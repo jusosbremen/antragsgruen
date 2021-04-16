@@ -83,10 +83,10 @@ return [
     'supporting_permitted'      => 'Permission',
     'download_pdf'              => 'Version PDF',
     'motion_text'               => 'Text de la motion',
-    'published_email_body'      => "Salut,\n\nta motion vient tout juste d'être publiée sur Antragsgrün. " .
+    'published_email_body'      => "Salut,\n\nta motion vient tout juste d'être publiée sur Antragsrot. " .
                                    "Tu peux la voir ici : %LINK%\n\n" .
                                    "Bien à toi,\n" .
-                                   "  L'équipe Antragsgrün",
+                                   "  L'équipe Antragsrot",
     'published_email_title'     => 'Ta motion a été publiée',
     'back_to_motion'            => 'Retour',
     'edit_done'                 => 'Motion modifiée',

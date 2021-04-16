@@ -96,9 +96,9 @@ return [
     'proposal_autoupdate'      => 'Auto-Update',
     'proposal_updated'         => 'Updated',
 
-    'aad_title' => 'Using Antragsgrün',
-    'aad_text'  => 'Do you want to use Antragsgrün / motion.tools for your own assembly?',
-    'aad_btn'   => 'Information about using Antragsgrün',
+    'aad_title' => 'Using Antragsrot',
+    'aad_text'  => 'Do you want to use Antragsrot / motion.tools for your own assembly?',
+    'aad_btn'   => 'Information about using Antragsrot',
 
     'agenda_title'   => 'Title',
     'agenda_time'    => 'Time',

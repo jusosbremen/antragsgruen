@@ -23,7 +23,7 @@ return [
     'err_unknown_ww_repeat'     => 'Une erreur inconnue s\'est produite',
     'err_no_recovery'           => 'Aucune demande de récupération du mot de passe n\'a été envoyée dans les dernièrs 24 heures.',
     'err_change_toolong'        => 'La demande est trop ancienne; merci de faire une nouvelle demande de récupération de mot de passe et de confirmer l\'email dans les 24 heures',
-    'recover_mail_title'        => 'Antragsgrün: Récupération de mot de passe',
+    'recover_mail_title'        => 'Antragsrot: Récupération de mot de passe',
     'recover_mail_body'         => "Salut!\n\nTu as fait une demande de récupération de mot de passe. " .
         "Pour obtenir un mot de passe, cliquer sur le lien suivant et entre ton nouveau mot de passe :\n\n%URL%\n\n" .
         "Ou entre le code suivant sur le page de récupération du mot de passe : %CODE%",
@@ -47,17 +47,17 @@ return [
     'del_confirm'               => 'Confirmer la suppression',
     'del_do'                    => 'Supprimer',
     'noti_greeting'             => 'Hi %NAME%,',
-    'noti_bye'                  => "Bien à tou,\n   L'équipe Antragsgrün\n\n--\n\n" .
+    'noti_bye'                  => "Bien à tou,\n   L'équipe Antragsrot\n\n--\n\n" .
         "Si tu ne souhaites plus recevoir d'emails, tu peux te désinscrire ici :\n",
-    'noti_new_motion_title'     => '[Antragsgrün] Nouvelle motion:',
+    'noti_new_motion_title'     => '[Antragsrot] Nouvelle motion:',
     'noti_new_motion_body'      => "Une nouvelle motion a été déposée :\nConsultation : %CONSULTATION%\n" .
         "Nom : %TITLE%\nLien : %LINK%",
-    'noti_new_amend_title'      => '[Antragsgrün] Nouvel amendement à %TITLE%',
+    'noti_new_amend_title'      => '[Antragsrot] Nouvel amendement à %TITLE%',
     'noti_new_amend_body'       => "Un nouvel amendement a été déposé :\nConsultation : %CONSULTATION%\n" .
         "Motion : %TITLE%\nLien : %LINK%",
-    'noti_new_comment_title'    => '[Antragsgrün] Nouveau commentaire à %TITLE%',
+    'noti_new_comment_title'    => '[Antragsrot] Nouveau commentaire à %TITLE%',
     'noti_new_comment_body'     => "%TITLE% a été commenté :\n%LINK%",
-    'acc_grant_email_title'     => 'Accès à Antragsgrün',
+    'acc_grant_email_title'     => 'Accès à Antragsrot',
     'acc_grant_email_userdata' => "Email / nom d'utilisateur : %EMAIL%\nMot de passe : %PASSWORD%",
 
 
@@ -86,12 +86,12 @@ return [
     'create_err_noname'       => 'Merci d\'entrer votre nom.',
     'err_contact_required'    => 'Tu dois entrer une adresse de contact.',
 
-    'create_emailconfirm_title' => 'Inscription sur Antragsgrün / motion.tools',
+    'create_emailconfirm_title' => 'Inscription sur Antragsrot / motion.tools',
     'create_emailconfirm_msg'   =>
         "Salut,\n\nmerci de cliquer sur le lien suivant pour confirmer votre compte :\n" .
         "%BEST_LINK%\n\n"
         . "...ou entrer le code suivant sur le site : %CODE%\n\n"
-        . "Bien à toi,\n\tL'équipe Antragsgrün",
+        . "Bien à toi,\n\tL'équipe Antragsrot",
 
     'access_denied_title' => 'Accès refusé',
     'access_denied_body'  => 'Tu n\'as pas accès au site.',

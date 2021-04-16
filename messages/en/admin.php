@@ -43,7 +43,7 @@ return [
     'index_motion_types'          => 'Edit motion types',
     'index_site_access'           => 'Login / users / admins',
     'index_site_consultations'    => 'Manage more consultations on this subdomain',
-    'index_site_config'           => 'Configuration of this Antragsgrün installation',
+    'index_site_config'           => 'Configuration of this Antragsrot installation',
     'index_site_user_list'        => 'Registered users',
     'index_sys_admin'             => 'System configuration',
     'index_flush_caches'          => 'Flush system caches',
@@ -227,7 +227,7 @@ return [
     'con_robots_hint'         => 'Changes to this settings take several days to become active, as it depends on search engines actively re-crawling this site.',
     'con_title_motions'       => 'Motions',
     'con_feeds_sidebar'       => 'Show feeds in the sidebar',
-    'con_show_ad'             => 'Show &quot;Using Antragsgrün&quot; in the sidebar',
+    'con_show_ad'             => 'Show &quot;Using Antragsrot&quot; in the sidebar',
     'con_show_breadcrumbs'    => 'Show Breadcrumbs above the site content',
     'con_single_motion_mode'  => 'Only a <strong>single motion</strong> is being discussed, no motion overview page will be shown.',
     'con_force_motion'        => 'The following motion',
@@ -278,7 +278,7 @@ If this site should only be <em>visible</em> to users included below, select the
     'siteacc_forcelogin'        => 'Only logged in users are allowed to access (incl. <em>reading</em>)',
     'siteacc_managedusers'      => 'Only allow selected users to log in <small class="showManagedUsers">(see below)</small>',
     'siteacc_logins'            => 'The following login variants are possible',
-    'siteacc_useraccounts'      => 'Standard Antragsgrün accounts <small>(everyone with a valid e-mail address)</small>',
+    'siteacc_useraccounts'      => 'Standard Antragsrot accounts <small>(everyone with a valid e-mail address)</small>',
     'siteacc_ww'                => 'Grünes Netz <small>(members of the german green party)</small>',
     'siteacc_otherlogins'       => 'OpenID',
     'siteacc_con_pw'            => 'Protect this consultation with a password',
@@ -306,14 +306,14 @@ If this site should only be <em>visible</em> to users included below, select the
     'siteacc_accounts_title'    => 'User accounts',
     'siteacc_email_text_pre'    => 'Hi,
 
-we have just created an Antragsgrün account for you. Now you can join the discussion on the motions / drafts.
+we have just created an Antragsrot account for you. Now you can join the discussion on the motions / drafts.
 Here is your login data:
 
 %LINK%
 %ACCOUNT%
 
 Good-bye,
-  Team Antragsgrün',
+  Team Antragsrot',
     'siteacc_acc_expl_mail'     => '<h3>Explanation:</h3>
 To grant access to persons, enter their e-mail-addresses in the text field below.
 By submitting the form ("Create"), an invitation e-mail will be sent to the given addresses.<br>
@@ -323,7 +323,7 @@ The <strong>%ACCOUNT%</strong> in the e-mail text will be replaced by the user d
     'siteacc_acc_expl_nomail'   => '<h3>Explanation:</h3>
 To grant access to persons, enter their e-mail-addresses in the text field below.
 As there is <strong>no e-mail-delivery configured</strong>, it is necessary that you enter the passwords for the users here and send the passwords to them manually.<br><br>' .
-                                   'However, for <strong>privacy reasons</strong> it would be more advisible to configure the e-mail-delivery and let Antragsgrün create the passwords internally and send the passwords to the users automatically.',
+                                   'However, for <strong>privacy reasons</strong> it would be more advisible to configure the e-mail-delivery and let Antragsrot create the passwords internally and send the passwords to the users automatically.',
 
     'siteacc_existing_users'      => 'Existing users',
     'siteacc_user_name'           => 'Name',
@@ -349,9 +349,9 @@ As there is <strong>no e-mail-delivery configured</strong>, it is necessary that
     'siteacc_mail_yourdata'       => "You can log in using the following data:\nusername: %EMAIL%\n" .
                                      "Password: %PASSWORD%",
     'siteacc_mail_youracc'        => 'You can log in using your username %EMAIL%.',
-    'sitacc_admmail_subj'         => 'Antragsgrün administration',
-    'sitacc_admmail_body'         => "Hi!\n\nYou just received admin permissions for the following Antragsgrün site: %LINK%\n\n" .
-                                     "%ACCOUNT%\n\nBye,\n Antragsgrün Team",
+    'sitacc_admmail_subj'         => 'Antragsrot administration',
+    'sitacc_admmail_body'         => "Hi!\n\nYou just received admin permissions for the following Antragsrot site: %LINK%\n\n" .
+                                     "%ACCOUNT%\n\nBye,\n Antragsrot Team",
     'siteacc_err_linenumber'      => 'The number of e-mail addresses and names do not match',
     'siteacc_err_occ'             => 'An error occurred',
     'siteacc_user_had'            => 'The following users already have access',
@@ -364,7 +364,7 @@ As there is <strong>no e-mail-delivery configured</strong>, it is necessary that
     'siteacc_screen_users_btn'    => 'Grant access',
     'siteacc_noscreen_users_btn'  => 'Don\' grant access',
     'Translation / Wording'       => 'Edit the language',
-    'translating_hint'            => 'Here you can change all texts of the user interface of Antragsgrün. If you want to completely translate Antragsgrün into another language, please <a href="https://github.com/CatoTH">contact us</a> so we can adopt the translation into the official project.<br>' .
+    'translating_hint'            => 'Here you can change all texts of the user interface of Antragsrot. If you want to completely translate Antragsrot into another language, please <a href="https://github.com/CatoTH">contact us</a> so we can adopt the translation into the official project.<br>' .
                                      '<strong>Hint:</strong> Changes here only affect this one consultation.',
     'translating_none'            => 'No strings to translate',
     'translating_base'            => 'Base language',
@@ -570,7 +570,7 @@ As there is <strong>no e-mail-delivery configured</strong>, it is necessary that
     'updates_show_changes' => 'Show changes',
 
     'php_version_hint_title' => '<strong>Warning:</strong> Old PHP-Version',
-    'php_version_hint_text'  => 'This server runs the obsolete version %CURR% or PHP. Future versions of Antragsgrün will not be compatible with it. Please upgrade PHP soon.',
+    'php_version_hint_text'  => 'This server runs the obsolete version %CURR% or PHP. Future versions of Antragsrot will not be compatible with it. Please upgrade PHP soon.',
 
     'theme_title'                       => 'Custom theme',
     'theme_block_text'                  => 'Text',

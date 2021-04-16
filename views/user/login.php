@@ -248,7 +248,7 @@ if ($params->isSamlActive()) {
     echo '<div id="loginSamlHint">
     <strong>Hinweis:</strong> Hier wirst du auf eine Seite unter „https://saml.gruene.de/” umgeleitet,
     die vom Bundesverband betrieben wird.<br>Dort musst du dein Benutzer*innenname/Passwort des Grünen Netzes
-    eingeben. Dein Passwort bleibt dabei geheim und wird <i>nicht</i> an Antragsgrün übermittelt.
+    eingeben. Dein Passwort bleibt dabei geheim und wird <i>nicht</i> an Antragsrot übermittelt.
     <br><br>
     <strong>Zugangsdaten vergessen?</strong> Klicke auf „Einloggen” und auf der folgenden Seite auf „Passwort vergessen?”.
         </div>

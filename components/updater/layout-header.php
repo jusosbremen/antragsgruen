@@ -6,8 +6,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Antragsgrün Updater">
-    <title>Antragsgrün Update</title>
+    <meta name="description" content="Antragsrot Updater">
+    <title>Antragsrot Update</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="<?= $config['resourceBase'] ?>css/layout-classic.css">
     <link rel="stylesheet" href="<?= $config['resourceBase'] ?>css/update.css">
@@ -35,4 +35,4 @@
         <ol class="breadcrumb"></ol>
         <div class="row antragsgruen-content">
             <main class="col-md-9 well">
-                <h1>Antragsgrün-Update: <?= htmlentities($title, ENT_COMPAT, 'UTF-8') ?></h1>
+                <h1>Antragsrot-Update: <?= htmlentities($title, ENT_COMPAT, 'UTF-8') ?></h1>

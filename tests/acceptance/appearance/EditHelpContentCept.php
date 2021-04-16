@@ -26,7 +26,7 @@ $I->gotoConsultationHome();
 $I->seeElement('#mainmenu .page' . AcceptanceTester::FIRST_FREE_CONTENT_ID);
 $I->see('Einstellungen', '#adminLink');
 $I->see('Bearbeiten', '.editCaller');
-$I->see('Hallo auf Antragsgrün');
+$I->see('Hallo auf Antragsrot');
 
 $I->wantTo('Edit the home page content');
 $I->executeJS('$(".contentPageWelcome").find(".editCaller").click();');
@@ -37,7 +37,7 @@ $I->wait(1);
 $I->see('Bold test');
 
 $I->gotoConsultationHome();
-$I->dontSee('Hallo auf Antragsgrün');
+$I->dontSee('Hallo auf Antragsrot');
 $I->see('Bold test');
 
 $I->wantTo('Go to the help page');

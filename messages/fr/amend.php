@@ -71,10 +71,10 @@ return [
     'button_correct'                    => 'Corriger',
     'confirm'                           => 'Confirmer',
     'go_on'                             => 'Continuer',
-    'published_email_body'              => "Salut,\n\n ton amendement à %MOTION% a tout juste été publié sur Antragsgrün. " .
+    'published_email_body'              => "Salut,\n\n ton amendement à %MOTION% a tout juste été publié sur Antragsrot. " .
         "Tu peux le voir ici: %LINK%\n\n" .
         "Ecologiquement,\n" .
-        "  L'équipe Antragsgrün",
+        "  L'équipe Antragsrot",
     'published_email_title'             => 'Ton amendement a été publié',
     'sidebar_adminedit'                 => 'Admin: modifier',
     'sidebar_back'                      => 'Retour à la motion',

@@ -8,7 +8,7 @@ $I->populateDBData1();
 
 $I->wantTo('ensure that ManagerStartPage works');
 $I->openPage(ManagerStartPage::class);
-$I->see(mb_strtoupper('Antragsgrün - das grüne Antragstool'), 'h1');
+$I->see(mb_strtoupper('Antragsrot - das grüne Antragstool'), 'h1');
 
 
 $I->wantTo('go to the legal page');

@@ -53,7 +53,7 @@ $I->see('Die Veranstaltung wurde angelegt.');
 $I->wantTo('open the consultation');
 $I->submitForm('.createdForm', [], '');
 
-$I->see('Hallo auf Antragsgrün');
+$I->see('Hallo auf Antragsrot');
 $I->see('Test-Congress', 'h1');
 
 $I->see('Bewerben', '#sidebar .createMotion');
@@ -61,7 +61,7 @@ $I->click('#sidebar .createMotion');
 $I->seeElement('.type5');
 
 $I->logout();
-$I->dontSee('Hallo auf Antragsgrün');
+$I->dontSee('Hallo auf Antragsrot');
 $I->dontSee('Test-Congress', 'h1');
 $I->see('Wartungsmodus', 'h1');
 

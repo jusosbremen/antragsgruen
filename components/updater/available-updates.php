@@ -25,7 +25,7 @@ foreach ($success as $msg) {
             echo '<br><br><div class="alert alert-danger">' .
                 'You are using PHP version ' . PHP_VERSION . '. Please upgrade to PHP 7.2 soon, ' .
                 'as PHP 7.0 and below <a href="https://secure.php.net/supported-versions.php">will not be supported after december 2018</a> anymore. ' .
-                'Also, Antragsgrün runs seriously faster with newer versions.' .
+                'Also, Antragsrot runs seriously faster with newer versions.' .
                 '</div>';
         } elseif (version_compare(PHP_VERSION, '7.2.0', '<')) {
             echo '<br><br><div class="alert alert-info">' .

@@ -34,7 +34,7 @@ return [
     'index_motion_types'          => 'Modifier les types de motion',
     'index_site_access'           => 'Login / utilisateurs / admins',
     'index_site_consultations'    => 'Gérer plus de consultations sur ce sous-domaine',
-    'index_site_config'           => 'Configuration de cette installation Antragsgrün',
+    'index_site_config'           => 'Configuration de cette installation Antragsrot',
     'index_site_user_list'        => 'Utilisateurs enregistrés',
     'index_sys_admin'             => 'Configuration du système',
     'index_flush_caches'          => 'Supprimer les caches du système',
@@ -187,7 +187,7 @@ Si cela ne doit être <em>visible</em> que pour les utilisateurs ci-dessous, val
     'siteacc_forcelogin'     => 'Seul-e-s les utilisateurs-trices peuvent accéder (y compris <em>la lecture</em>)',
     'siteacc_managedusers'   => 'Autoriser seulement certain-e-s utilisateurs-trices à se connecter <small class="showManagedUsers">(voir ci-dessous)</small>',
     'siteacc_logins'         => 'Les variantes de connexion suivantes sont possibles',
-    'siteacc_useraccounts'   => 'Comptes Antragsgrün standards <small>(toute personne avec une adresse email valide)</small>',
+    'siteacc_useraccounts'   => 'Comptes Antragsrot standards <small>(toute personne avec une adresse email valide)</small>',
     'siteacc_ww'             => 'Grünes-Netz <small>(toute personne ayant accès au système allemand Grünes Netz)</small>',
     'siteacc_otherlogins'    => 'OpenID',
     'siteacc_admins_title'   => 'Administrateurs de ce site',
@@ -200,14 +200,14 @@ Si cela ne doit être <em>visible</em> que pour les utilisateurs ci-dessous, val
     'siteacc_accounts_title' => 'User accounts',
     'siteacc_email_text_pre' => 'Salut,
 
-Nous venons tout juste de te créer un compte Antragsgrün pour toi. Tu peux maintenant rejoindre la discussion sur les motions.
+Nous venons tout juste de te créer un compte Antragsrot pour toi. Tu peux maintenant rejoindre la discussion sur les motions.
 Voici tes informations de connexion:
 
 %LINK%
 %ACCOUNT%
 
 Au revoir,
-  L\'équipe Antragsgrün',
+  L\'équipe Antragsrot',
 
     'siteacc_existing_users'      => 'Utilisateurs existants',
     'siteacc_user_name'           => 'Nom',
@@ -232,9 +232,9 @@ Au revoir,
     'siteacc_mail_yourdata'       => 'Tu peux te connecter en utilisant les données suivantes :\nusername: %EMAIL%\n" .
         "Password: %PASSWORD%"',
     'siteacc_mail_youracc'        => 'Tu peux te connecter en utilisant ton nom d\'utilisateur %EMAIL%.',
-    'sitacc_admmail_subj'         => 'Administration Antragsgrün',
-    'sitacc_admmail_body'         => "Salut!\n\n Tu viens de recevoir les droits d\'administration pour le site Antragsgrün suivant : %LINK%\n\n" .
-        "%ACCOUNT%\n\n A bientôt !,\n L\'équipe Antragsgrün.",
+    'sitacc_admmail_subj'         => 'Administration Antragsrot',
+    'sitacc_admmail_body'         => "Salut!\n\n Tu viens de recevoir les droits d\'administration pour le site Antragsrot suivant : %LINK%\n\n" .
+        "%ACCOUNT%\n\n A bientôt !,\n L\'équipe Antragsrot.",
     'siteacc_err_linenumber'      => 'Le nombre d\'adresses email et de noms ne correspond pas',
     'siteacc_err_occ'             => 'Une erreur s\'est produite',
     'siteacc_user_had'            => 'Les utilisateurs suivants ont déjà accès',

@@ -6,7 +6,7 @@ $I->populateDBData1();
 
 $I->gotoConsultationHome();
 
-$I->see('Dein Antragsgrün', '#sidebar');
+$I->see('Dein Antragsrot', '#sidebar');
 
 $I->wantTo('disable the ad');
 $I->loginAsStdAdmin();
@@ -15,7 +15,7 @@ $I->uncheckOption('#showAntragsgruenAd');
 $page->saveForm();
 
 $I->gotoConsultationHome();
-$I->dontSee('Dein Antragsgrün', '#sidebar');
+$I->dontSee('Dein Antragsrot', '#sidebar');
 
 $I->wantTo('enable it again');
 
@@ -24,4 +24,4 @@ $I->checkOption('#showAntragsgruenAd');
 $page->saveForm();
 
 $I->gotoConsultationHome();
-$I->see('Dein Antragsgrün', '#sidebar');
+$I->see('Dein Antragsrot', '#sidebar');

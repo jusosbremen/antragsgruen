@@ -116,10 +116,10 @@ return [
     'download_pdf'              => 'PDF version',
     'motion_text'               => 'Motion text',
     'resolution_text'           => 'Decided text',
-    'published_email_body'      => "Hi,\n\nyour motion \"%TITLE%\" has just been published on Antragsgrün. " .
+    'published_email_body'      => "Hi,\n\nyour motion \"%TITLE%\" has just been published on Antragsrot. " .
                                    "You can see it here: %LINK%\n\n" .
                                    "Greetings,\n" .
-                                   "  The Antragsgrün Team",
+                                   "  The Antragsrot Team",
     'published_email_title'     => 'Your motion has been published',
     'back_to_motion'            => 'Back',
     'edit_done'                 => 'Edited motion',
@@ -215,18 +215,18 @@ return [
                                  "the administrators have discussed about your motion and propose to accept it in a modified version.\n\n" .
                                  "Please check at the following link if you agree with the proposed modifications:\n%LINK%\n\n" .
                                  "Greetings,\n" .
-                                 "  The Antragsgrün-Team",
+                                 "  The Antragsrot-Team",
     'proposal_email_accepted' => "Hi %NAME_GIVEN%,\n\n" .
                                  "for your information: the administrators will propose to accept your motion.\n\n" .
                                  "You can see the motion at the following link: %LINK%\n\n" .
                                  "Greetings,\n" .
-                                 "  The Antragsgrün-Team",
+                                 "  The Antragsrot-Team",
     'proposal_email_other'    => "Hi %NAME_GIVEN%,\n\n" .
                                  "the administrators have agreed on a proposed procedure regarding your motion.\n\n" .
                                  "Please have a look at the proposal at the following link and confirm, if you agree with it or not:\n%LINK%\n\n" .
                                  "Hint: if you forward the link mentioned just now, the receiving person will be able to see and accept the proposal.\n\n" .
                                  "Greetings,\n" .
-                                 "  The Antragsgrün-Team",
+                                 "  The Antragsrot-Team",
 
     'goto_line'     => 'Go to line',
     'goto_line_go'  => 'Go',

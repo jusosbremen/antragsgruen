@@ -80,7 +80,7 @@ echo '<div class="form-group">
 echo '<div class="form-group">
   <label class="col-sm-4 control-label" for="mailFromName">' . yii::t('manager', 'email_from_name') . ':</label>
   <div class="col-sm-8">
-    <input type="text" name="mailFromName" placeholder="Antragsgrün"
+    <input type="text" name="mailFromName" placeholder="Antragsrot"
       value="' . Html::encode($config->mailFromName) . '" class="form-control" id="mailFromName">
   </div>
 </div>';

@@ -126,7 +126,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
                                             "Du wirst dann gesondert darüber benachrichtigt.\n\n" .
                                             "Du kannst ihn hier einsehen: %LINK%\n\n" .
                                             "Mit freundlichen Grüßen,\n" .
-                                            "  Das Antragsgrün-Team",
+                                            "  Das Antragsrot-Team",
     'submitted_screening_email_subject'  => 'Antrag eingereicht',
     'submitted_supp_phase_email'         => "Hallo %NAME_GIVEN%\n\nDu hast den Antrag nun angelegt.\n" .
                                             "Um ihn offiziell einzureichen, benötigt er mindestens %MIN% Unterstützer*innen.\n\n" .
@@ -139,10 +139,10 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
     'download_pdf'                       => 'PDF-Version herunterladen',
     'motion_text'                        => 'Antragstext',
     'resolution_text'                    => 'Beschlusstext',
-    'published_email_body'               => "Hallo,\n\ndein Antrag „%TITLE%“ wurde soeben auf Antragsgrün veröffentlicht. " .
+    'published_email_body'               => "Hallo,\n\ndein Antrag „%TITLE%“ wurde soeben auf Antragsrot veröffentlicht. " .
                                             "Du kannst ihn hier einsehen: %LINK%\n\n" .
                                             "Mit freundlichen Grüßen,\n" .
-                                            "  Das Antragsgrün-Team",
+                                            "  Das Antragsrot-Team",
     'published_email_title'              => 'Antrag veröffentlicht',
     'back_to_motion'                     => 'Zurück zum Antrag',
     'edit_done'                          => 'Antrag bearbeitet',
@@ -186,7 +186,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
 <ol>
 <li><strong>Antrag anlegen:</strong> Bitte lege auf dieser Seite deinen Antrag an und hinterlege deine (Kontakt-)Daten. Kontrolliere auf der nächsten Seite, ob alles richtig ist, und bestätige, dass du den Antrag wie gezeigt anlegen möchtest.</li>
 <li><strong>Unterstützung finden:</strong> Nach der Bestätigung erhältst du einen Link, den du Interessierten weiterleiten kannst. Über diesen Link kann dein Antrag gelesen und von Parteimitgliedern unterstützt werden, die damit mit Dir gemeinsam den Antrag stellen. Bitte beachte, dass sich auch die Unterstützer*innen deines Antrags mit ihren Zugangsdaten für das Grüne Netz einloggen und darüber verifizieren müssen.</li>
-<li><strong>Antrag einreichen:</strong> Sobald sich die notwendigen %MIN% Unterstützer*innen gefunden haben, musst du den angelegten Antrag noch offiziell bei der Antragskommission einreichen. Dies veranlasst Du auch über Antragsgrün. Wir informieren dich selbstverständlich per E-Mail, sobald die notwendige Zahl der Unterstützer*innen erreicht ist.</li>
+<li><strong>Antrag einreichen:</strong> Sobald sich die notwendigen %MIN% Unterstützer*innen gefunden haben, musst du den angelegten Antrag noch offiziell bei der Antragskommission einreichen. Dies veranlasst Du auch über Antragsrot. Wir informieren dich selbstverständlich per E-Mail, sobald die notwendige Zahl der Unterstützer*innen erreicht ist.</li>
 </ol>',
     'support_collect_status'             => 'Aktueller Stand',
     'support_collect_min'                => 'min.',
@@ -206,7 +206,7 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
     'support_collection_hint_female'     => 'Dieser Antrag ist noch nicht eingereicht. Nötig sind <strong>mindestens %MIN% Unterstützer*innen, davon %MIN_F% Frauen (aktueller Stand: %CURR% / %CURR_F%)</strong>. Wenn du ihn unterstützen willst, kannst du das unten auf dieser Seite tun.',
     'support_collection_reached_hint'    => 'Dieser Antrag ist noch nicht eingereicht. <strong>Die Mindestzahl an Unterstützer*innen (%MIN%) wurde erreicht</strong>, nun muss nur noch die/der Antragsteller*in die Einreichung bestätigen. Eine Unterstützung des Antrags ist weiterhin möglich. ',
     'support_reached_email_subject'      => 'Dein Antrag: Unterstützer*innen-Anzahl erreicht',
-    'support_reached_email_body'         => 'Hallo,<br><br>Gute Nachrichten! Dein Antrag „%TITLE%“ hat die Mindestzahl an Unterstützer*innen erreicht.<br><br>Jetzt bist du noch einmal am Zug. Bitte reiche deinen Antrag nun offiziell bei der Antragskommission ein. Dies kannst du über Antragsgrün unter dem folgenden Link machen:<br><br><strong>%LINK%</strong><br><br>Der Antrag wird zeitnah nach einer formalen Prüfung im Antragsgrün veröffentlicht.<br><br>Viele Grüße,<br>  Das Antragsgrün-Team',
+    'support_reached_email_body'         => 'Hallo,<br><br>Gute Nachrichten! Dein Antrag „%TITLE%“ hat die Mindestzahl an Unterstützer*innen erreicht.<br><br>Jetzt bist du noch einmal am Zug. Bitte reiche deinen Antrag nun offiziell bei der Antragskommission ein. Dies kannst du über Antragsrot unter dem folgenden Link machen:<br><br><strong>%LINK%</strong><br><br>Der Antrag wird zeitnah nach einer formalen Prüfung im Antragsrot veröffentlicht.<br><br>Viele Grüße,<br>  Das Antragsrot-Team',
     'support_finish_btn'                 => 'Antrag offiziell einreichen',
     'support_finish_err'                 => 'Das ist derzeit (noch) nicht möglich',
     'support_finish_done'                => 'Der Antrag ist nun offiziell eingereicht',
@@ -227,18 +227,18 @@ Bitte beachte, dass sich die Unterstützer*innen deines Antrags mit ihren Zugang
                                  "die Programmkommission hat über deinen Antrag beraten und will vorschlagen, ihn modifiziert zu übernehmen.\n\n" .
                                  "Bitte überprüfe unter folgendem Link, ob du mit der modifizierten Übernahme so einverstanden bist:\n%LINK%\n\n" .
                                  "Mit freundlichen Grüßen,\n" .
-                                 "  Das Antragsgrün-Team",
+                                 "  Das Antragsrot-Team",
     'proposal_email_accepted' => "Hallo %NAME_GIVEN%,\n\n" .
                                  "zu Deiner Information: die Programmkommission wird vorschlagen, deinen Antrag zu übernehmen.\n\n" .
                                  "Du kannst ihn hier einsehen: %LINK%\n\n" .
                                  "Mit freundlichen Grüßen,\n" .
-                                 "  Das Antragsgrün-Team",
+                                 "  Das Antragsrot-Team",
     'proposal_email_other'    => "Hallo %NAME_GIVEN%,\n\n" .
                                  "die Programmkommission hat einen Verfahrensvorschlag für deinen Antrag erarbeitet.\n\n" .
                                  "Bitte überprüfe unter folgendem Link, ob du damit einverstanden bist:\n%LINK%\n\n" .
                                  "Hinweis: wenn du den eben genannten Link weiterleitest, kann die empfangende Person den Vorschlag damit ebenfalls einsehen und ggf. bestätigen.\n\n" .
                                  "Mit freundlichen Grüßen,\n" .
-                                 "  Das Antragsgrün-Team",
+                                 "  Das Antragsrot-Team",
 
     'goto_line'     => 'Gehe zu Zeile',
     'goto_line_go'  => 'Los',

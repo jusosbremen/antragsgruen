@@ -384,13 +384,13 @@ class Layout
 
     public function formatTitle(string $title): string
     {
-        if (stripos($title, 'Antragsgrün') === false) {
+        if (stripos($title, 'Antragsrot') === false) {
             if ($title === '') {
-                $title = 'Antragsgrün';
+                $title = 'Antragsrot';
             } elseif ($title[strlen($title) - 1] === ')') {
-                $title = substr($title, 0, strlen($title) - 1) . ', Antragsgrün)';
+                $title = substr($title, 0, strlen($title) - 1) . ', Antragsrot)';
             } else {
-                $title .= ' (Antragsgrün)';
+                $title .= ' (Antragsrot)';
             }
         }
         return $title;

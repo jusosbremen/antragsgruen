@@ -68,7 +68,7 @@ $I->see('Die Veranstaltung wurde angelegt.');
 $I->wantTo('open the consultation');
 $I->submitForm('.createdForm', [], '');
 
-$I->see('Hallo auf Antragsgrün');
+$I->see('Hallo auf Antragsrot');
 $I->see('Test-Congress', 'h1');
 
 

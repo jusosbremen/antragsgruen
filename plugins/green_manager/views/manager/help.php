@@ -29,7 +29,7 @@ $params = \Yii::$app->params;
 
 <div class="content managerHelpPage">
 
-    <h2>Discuss.green / Antragsgrün - Manual</h2>
+    <h2>Discuss.green / Antragsrot - Manual</h2>
 
     <ul class="toc">
         <li>
@@ -119,7 +119,7 @@ $params = \Yii::$app->params;
         </li>
     </ul>
 
-    <h2 id="basic_structure">Basic structure of an Discuss.green / Antragsgrün-Site</h2>
+    <h2 id="basic_structure">Basic structure of an Discuss.green / Antragsrot-Site</h2>
 
     <h3 id="motions">Motions / Amendments</h3>
     <p>“Motion” refers to all kind of documents published on Discuss.green. Originally, the system was primarily developed
@@ -482,7 +482,7 @@ $params = \Yii::$app->params;
             This can be done at “Settings” → “Edit the language”. This can be used to change a few words, change the
             e-mail-templates, etc.
         </li>
-        <li>Translation Discuss.green / Antragsgrün: It is possible to translate Discuss.green into another language – currently, we
+        <li>Translation Discuss.green / Antragsrot: It is possible to translate Discuss.green into another language – currently, we
             provide translations into english, german and french. However, this is not possible using the web interface
             and needs some changes to the source code. If you are interested in translating Discuss.green into a language
             not yet supported, please contact as and we’d be glad to help (especially if you were willing to contribute

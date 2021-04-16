@@ -25,7 +25,7 @@ if (!defined('YII_ENV')) {
     $configFile  = $configDir . DIRECTORY_SEPARATOR . 'config.json';
     $installFile = $configDir . DIRECTORY_SEPARATOR . 'INSTALLING';
     if (!file_exists($configFile) && !file_exists($installFile)) {
-        die('Antragsgrün is not configured yet. Please create the config/INSTALLING file and call this site again to open the installation wizard.');
+        die('Antragsrot is not configured yet. Please create the config/INSTALLING file and call this site again to open the installation wizard.');
     }
 }
 
@@ -46,7 +46,7 @@ try {
 } catch (\yii\base\InvalidConfigException $e) {
     $error = htmlentities($e->getMessage(), ENT_COMPAT, 'UTF-8');
     $file  = (isset($_SERVER['ANTRAGSGRUEN_CONFIG']) ? $_SERVER['ANTRAGSGRUEN_CONFIG'] : 'config/config.json');
-    echo str_replace('%ERROR%', $error, 'Leider ist die Antragsgrün-Konfigurationsdatei (' . $file . ') fehlerhaft.
+    echo str_replace('%ERROR%', $error, 'Leider ist die Antragsrot-Konfigurationsdatei (' . $file . ') fehlerhaft.
     Die Fehlermeldung lautet: %ERROR%<br><br>
     Du kannst auf folgende Weisen versuchen, sie zu korrigieren:<ul>
     <li>Die Datei von Hand bearbeiten und den Fehler ausfindig machen und korrigieren.</li>

@@ -27,7 +27,7 @@ return [
     'err_no_recovery'           => 'Es wurde kein Wiederherstellungs-Antrag innerhalb der letzten 24 Stunden gestellt.',
     'err_change_toolong'        => 'Die Änderungsanfrage ist schon zu lange her; ' .
         'bitte fordere eine neue Änderung an und rufe den Link innerhalb von 24 Stunden auf',
-    'recover_mail_title'        => 'Antragsgrün: Passwort-Wiederherstellung',
+    'recover_mail_title'        => 'Antragsrot: Passwort-Wiederherstellung',
     'recover_mail_body'         => "Hallo!\n\nDu hast eine Passwort-Wiederherstellung angefordert. " .
         "Um diese durchzuführen, rufe bitte folgenden Link auf und gib dort das neue Passwort ein:\n\n%URL%\n\n" .
         "Oder gib in dem Wiederherstellungs-Formular folgenden Code ein: %CODE%",
@@ -46,7 +46,7 @@ return [
     'emailchange_resend'        => 'Neue Bestätigungs-Mail',
     'email_pp_replyto'          => 'Reply-To bei Verfahrensvorschlägen (vom Admin eingestellt)',
     'del_title'                 => 'Zugang löschen',
-    'del_explanation'           => 'Hier kannst du diesen Zugang von Antragsgrün löschen. Du erhältst keine E-Mail-Benachrichtigungen mehr,
+    'del_explanation'           => 'Hier kannst du diesen Zugang von Antragsrot löschen. Du erhältst keine E-Mail-Benachrichtigungen mehr,
         ein Login ist auch nicht mehr möglich. Deine E-Mail-Adresse, Name, Passwort usw. werden damit aus unserem
         System gelöscht.<br>
         Eingebrachte (Änderungs-)Anträge bleiben aber erhalten. Um eingebrachte Anträge zu entfernen,
@@ -54,20 +54,20 @@ return [
     'del_confirm'               => 'Löschen bestätigen',
     'del_do'                    => 'Löschen',
     'noti_greeting'             => 'Hallo %NAME%,',
-    'noti_bye'                  => "Liebe Grüße,\n   Das Antragsgrün-Team\n\n--\n\n" .
+    'noti_bye'                  => "Liebe Grüße,\n   Das Antragsrot-Team\n\n--\n\n" .
         "Falls du diese Benachrichtigung abbestellen willst, kannst du das hier tun:\n",
-    'noti_new_motion_title'     => '[Antragsgrün] Neuer Antrag:',
+    'noti_new_motion_title'     => '[Antragsrot] Neuer Antrag:',
     'noti_new_motion_body'      => "Es wurde ein neuer Antrag eingereicht:\nAnlass: %CONSULTATION%\n" .
         "Name: %TITLE%\nAntragsteller*in: %INITIATOR%\nLink: %LINK%",
-    'noti_new_amend_title'      => '[Antragsgrün] Neuer Änderungsantrag zu %TITLE%',
+    'noti_new_amend_title'      => '[Antragsrot] Neuer Änderungsantrag zu %TITLE%',
     'noti_new_amend_body'       => "Es wurde ein neuer Änderungsantrag eingereicht:\nAnlass: %CONSULTATION%\n" .
         "Antrag: %TITLE%\nLink: %LINK%",
     'noti_amend_mymotion'       => "Es wurde ein neuer Änderungsantrag zu deinem Antrag eingereicht:\nAnlass: %CONSULTATION%\n" .
         "Antrag: %TITLE%\nAntragsteller*in: %INITIATOR%\nLink: %LINK%\n%MERGE_HINT%",
     'noti_amend_mymotion_merge' => "\nWenn du diesem Änderungsantrag zustimmst, kannst du ihn in deinen Antrag übernehmen (\"In den Antrag übernehmen\" in der Sidebar)",
-    'noti_new_comment_title'    => '[Antragsgrün] Neuer Kommentar zu %TITLE%',
+    'noti_new_comment_title'    => '[Antragsrot] Neuer Kommentar zu %TITLE%',
     'noti_new_comment_body'     => "Es wurde ein neuer Kommentar zu %TITLE% geschrieben:\n%LINK%",
-    'acc_grant_email_title'     => 'Antragsgrün-Zugriff',
+    'acc_grant_email_title'     => 'Antragsrot-Zugriff',
     'acc_grant_email_userdata'  => "E-Mail / Benutzer*innenname: %EMAIL%\nPasswort: %PASSWORD%",
 
     'login_title'             => 'Login',
@@ -89,10 +89,10 @@ return [
     'managed_account_ask_btn' => 'Berechtigung anfragen',
     'managed_account_asked'   => 'Berechtigung angefragt.',
 
-    'acc_request_noti_subject' => 'Anfrage: Zugriff auf Antragsgrün-Seite',
+    'acc_request_noti_subject' => 'Anfrage: Zugriff auf Antragsrot-Seite',
     'acc_request_noti_body'    => 'Die Benutzerin / der Benutzer %USERNAME% (%EMAIL%) fragt an, Zugriff auf die Seite "%CONSULTATION%" zu bekommen. Auf folgender Seite kannst du die Anfrage ggf. bestätigen: %ACTIONLINK%',
 
-    'login_confirm_registration' => 'Ich stimme der elektronischen Verarbeitung meiner freiwilligen Angaben durch Antragsgrün zu. Meine Angaben zu Name und E-Mail-Adresse dürfen dazu verwendet werden, mir für mich passende Informationen zukommen zu lassen. Ich kann diese Zustimmung jederzeit per Mail an info@antragsgruen.de oder per Schreiben an die im Impressum angegebene Adresse widerrufen.',
+    'login_confirm_registration' => 'Ich stimme der elektronischen Verarbeitung meiner freiwilligen Angaben durch Antragsrot zu. Meine Angaben zu Name und E-Mail-Adresse dürfen dazu verwendet werden, mir für mich passende Informationen zukommen zu lassen. Ich kann diese Zustimmung jederzeit per Mail an info@antragsgruen.de oder per Schreiben an die im Impressum angegebene Adresse widerrufen.',
 
     'login_err_password'      => 'Falsches Passwort',
     'login_err_username'      => 'Benutzer*innenname nicht gefunden',
@@ -105,17 +105,17 @@ return [
     'create_err_noname'       => 'Bitte gib deinen Namen ein.',
     'err_contact_required'    => 'Du musst eine Kontaktadresse angeben.',
 
-    'create_emailconfirm_title' => 'Anmeldung bei Antragsgrün',
+    'create_emailconfirm_title' => 'Anmeldung bei Antragsrot',
     'create_emailconfirm_msg'   =>
-        "Hallo,\n\num deinen Antragsgrün-Zugang zu aktivieren, klicke entweder auf folgenden Link:\n" .
+        "Hallo,\n\num deinen Antragsrot-Zugang zu aktivieren, klicke entweder auf folgenden Link:\n" .
         "%BEST_LINK%\n\n"
-        . "...oder gib, wenn du auf Antragsgrün danach gefragt wirst, folgenden Code ein: %CODE%\n\n"
-        . "Liebe Grüße,\n\tDas Antragsgrün-Team.",
+        . "...oder gib, wenn du auf Antragsrot danach gefragt wirst, folgenden Code ein: %CODE%\n\n"
+        . "Liebe Grüße,\n\tDas Antragsrot-Team.",
 
     'access_denied_title'  => 'Kein Zugriff',
     'access_denied_body'   => 'Dein Zugang ist für diese Seite nicht freigeschaltet.',
     'access_granted_email' => "Hallo,\n\ndu hast soeben Zugriff auf diese Veranstaltung bekommen:\n%LINK%\n\n"
-        . "Liebe Grüße,\n\tDas Antragsgrün-Team.",
+        . "Liebe Grüße,\n\tDas Antragsrot-Team.",
 
     'confirm_title'     => 'Zugang bestätigen',
     'confirm_username'  => 'E-Mail-Adresse / Benutzer*innenname',
@@ -149,7 +149,7 @@ return [
     'no_noti_bc'           => 'Benachrichtigungen',
     'no_noti_unchanged'    => 'Benachrichtigungen unverändert lassen',
     'no_noti_consultation' => 'Benachrichtigungen dieser Veranstaltung (%NAME%) abbestellen',
-    'no_noti_all'          => 'Alle Antragsgrün-Benachrichtigungen abbestellen',
+    'no_noti_all'          => 'Alle Antragsrot-Benachrichtigungen abbestellen',
     'no_noti_blocklist'    => 'Grundsätzlich keine E-Mails mehr an meine E-Mail-Adresse <small>(auch keine Passwort-Wiederherstellungs-Mails etc.)</small>',
     'no_noti_save'         => 'Speichern',
 
@@ -157,6 +157,6 @@ return [
     'notification_intro' => 'Pro Veranstaltung kann einzeln festgelegt werden, wie du per E-Mail über wichtige Ereignisse benachrichtigt werden willst:',
 
     'export_title' => 'Daten-Export',
-    'export_intro' => 'Hier kannst du alle personenbezogene Daten, die in Antragsgrün über dich gespeichert sind, in einem maschinenlesbaren JSON-Format herunterladen.',
+    'export_intro' => 'Hier kannst du alle personenbezogene Daten, die in Antragsrot über dich gespeichert sind, in einem maschinenlesbaren JSON-Format herunterladen.',
     'export_btn'   => 'Herunterladen',
 ];

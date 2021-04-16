@@ -107,7 +107,7 @@ foreach ($params->getPluginNames() as $pluginName) {
 }
 
 return [
-    'name'         => 'Antragsgrün',
+    'name'         => 'Antragsrot',
     'bootstrap'    => $bootstrap,
     'basePath'     => dirname(__DIR__),
     'components'   => $components,

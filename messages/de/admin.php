@@ -43,7 +43,7 @@ return [
     'index_motion_types'          => 'Antragstypen bearbeiten',
     'index_site_access'           => 'Login / Benutzer*innen / Admins',
     'index_site_consultations'    => 'Weitere Veranstaltungen anlegen / verwalten',
-    'index_site_config'           => 'Konfiguration der Antragsgrün-Installation',
+    'index_site_config'           => 'Konfiguration der Antragsrot-Installation',
     'index_site_user_list'        => 'Registrierte Benutzer*innen',
     'index_sys_admin'             => 'System-Konfiguration',
     'index_flush_caches'          => 'Alle System-Caches leeren',
@@ -224,7 +224,7 @@ return [
     'con_robots_hint'         => 'Änderungen an dieser Einstellung wirken sich erst aus, wenn Suchmaschinen das nächste Mal diese Seite abrufen. Das kann einige Tage dauern.',
     'con_title_motions'       => 'Anträge',
     'con_feeds_sidebar'       => 'Feeds in der Sidebar anzeigen',
-    'con_show_ad'             => '„Dein Antragsgrün“ in der Sidebar anzeigen',
+    'con_show_ad'             => '„Dein Antragsrot“ in der Sidebar anzeigen',
     'con_show_breadcrumbs'    => 'Breadcrumbs über dem Seiteninhalt anzeigen',
     'con_single_motion_mode'  => 'Es wird nur <strong>ein einziger Antrag</strong> diskutiert, auf eine einleitende Übersichts-Startseite wird verzichtet',
     'con_force_motion'        => 'Dieser Antrag ist',
@@ -279,7 +279,7 @@ Die Benutzer*innenverwaltung unten kommt erst dann voll zur Geltung, wenn die Le
     'siteacc_forcelogin'         => 'Nur eingeloggte Benutzer*innen dürfen zugreifen (inkl. <em>lesen</em>)',
     'siteacc_managedusers'       => 'Nur ausgewählten Benutzer*innen das Login erlauben <small class="showManagedUsers">(siehe unten)</small>',
     'siteacc_logins'             => 'Folgende Login-Varianten sind möglich',
-    'siteacc_useraccounts'       => 'Standard-Antragsgrün-Accounts <small>(alle mit gültiger E-Mail-Adresse)</small>',
+    'siteacc_useraccounts'       => 'Standard-Antragsrot-Accounts <small>(alle mit gültiger E-Mail-Adresse)</small>',
     'siteacc_ww'                 => 'Grünes Netz <small>(v.a. Parteimitglieder)</small>',
     'siteacc_otherlogins'        => 'OpenID',
     'siteacc_con_pw'             => 'Diese Veranstaltung mit einem Passwort versehen',
@@ -307,7 +307,7 @@ Die Benutzer*innenverwaltung unten kommt erst dann voll zur Geltung, wenn die Le
     'siteacc_accounts_title'     => 'Benutzer*innen-Accounts',
     'siteacc_email_text_pre'     => 'Hallo,
 
-wir haben dir soeben Zugang zu unserer Antragsgrün-Seite eingerichtet, ' .
+wir haben dir soeben Zugang zu unserer Antragsrot-Seite eingerichtet, ' .
                                     'auf der du über unseren Entwurf mitdiskutieren kannst.
 Hier ist der Zugang:
 
@@ -315,18 +315,18 @@ Hier ist der Zugang:
 %ACCOUNT%
 
 Liebe Grüße,
-  Das Antragsgrün-Team',
+  Das Antragsrot-Team',
     'siteacc_acc_expl_mail'      => '<h3>Erklärung:</h3>
 Um Benutzer*innen anzulegen, gib hier die E-Mail-Adressen der Mitglieder ein.
 Diese Mitglieder bekommen daraufhin eine Benachrichtigungs-E-Mail zugesandt.<br>
-Falls sie noch keinen eigenen Zugang auf Antragsgrün hatten, wird automatisch einer eingerichtet
+Falls sie noch keinen eigenen Zugang auf Antragsrot hatten, wird automatisch einer eingerichtet
 und an der Stelle von <strong>%ACCOUNT%</strong> erscheinen die Zugangsdaten
 (ansonsten verschwindet das %ACCOUNT% ersatzlos).<br>
-<strong>%LINK%</strong> wird immer durch einen Link auf die Antragsgrün-Seite ersetzt.',
+<strong>%LINK%</strong> wird immer durch einen Link auf die Antragsrot-Seite ersetzt.',
     'siteacc_acc_expl_nomail'    => '<h3>Erklärung:</h3>
 Um Benutzer*innen anzulegen, gib hier die E-Mail-Adressen, die Namen und die Passwörter der Mitglieder ein.
 Da <strong>kein E-Mail-Versand</strong> eingerichtet ist, musst du die <strong>Passwörter</strong> hier selbst erzeugen, im Klartext eingeben und selbst an die Nutzer*innen schicken.<br><br>' .
-                                    'Aus <strong>Datenschutzgründen</strong> wäre empfehlenswerter, zunächst den E-Mail-Versand einzurichten, damit Antragsgrün automatisch Passwörter erzeugen und direkt an die Nutzer*innen schicken kann.',
+                                    'Aus <strong>Datenschutzgründen</strong> wäre empfehlenswerter, zunächst den E-Mail-Versand einzurichten, damit Antragsrot automatisch Passwörter erzeugen und direkt an die Nutzer*innen schicken kann.',
     'siteacc_existing_users'     => 'Bereits eingetragene Benutzer*innen',
     'siteacc_user_name'          => 'Name',
     'siteacc_user_login'         => 'Login',
@@ -351,9 +351,9 @@ Da <strong>kein E-Mail-Versand</strong> eingerichtet ist, musst du die <strong>P
     'siteacc_mail_yourdata'      => "Du kannst dich mit folgenden Angaben einloggen:\nBenutzer*innenname: %EMAIL%\n" .
                                     "Passwort: %PASSWORD%",
     'siteacc_mail_youracc'       => 'Du kannst dich mit deinem Benutzer*innenname %EMAIL% einloggen.',
-    'sitacc_admmail_subj'        => 'Antragsgrün-Administration',
-    'sitacc_admmail_body'        => "Hallo!\n\nDu hast eben Admin-Zugang zu folgender Antragsgrün-Seite bekommen: %LINK%\n\n" .
-                                    "%ACCOUNT%\n\nLiebe Grüße,\n  Das Antragsgrün-Team",
+    'sitacc_admmail_subj'        => 'Antragsrot-Administration',
+    'sitacc_admmail_body'        => "Hallo!\n\nDu hast eben Admin-Zugang zu folgender Antragsrot-Seite bekommen: %LINK%\n\n" .
+                                    "%ACCOUNT%\n\nLiebe Grüße,\n  Das Antragsrot-Team",
     'siteacc_err_linenumber'     => 'Die Zahl der E-Mail-Adressen und der Namen stimmt nicht überein',
     'siteacc_err_occ'            => 'Es sind Fehler aufgetreten',
     'siteacc_user_had'           => 'Folgende Benutzer*innen hatten bereits Zugriff',
@@ -366,7 +366,7 @@ Da <strong>kein E-Mail-Versand</strong> eingerichtet ist, musst du die <strong>P
     'siteacc_screen_users_btn'   => 'Zugriff geben',
     'siteacc_noscreen_users_btn' => 'Keinen Zugriff geben',
     'Translation / Wording'      => 'Sprache anpassen',
-    'translating_hint'           => 'Auf dieser Seite können die Texte der Benutzeroberfläche von Antragsgrün angepasst werden. Falls du eine komplett neue Sprache anlegen und allen anderen Nutzer*innen von Antragsgrün bereit stellen willst, <a href="https://github.com/CatoTH">melde dich</a> einfach bei uns.<br><br>' .
+    'translating_hint'           => 'Auf dieser Seite können die Texte der Benutzeroberfläche von Antragsrot angepasst werden. Falls du eine komplett neue Sprache anlegen und allen anderen Nutzer*innen von Antragsrot bereit stellen willst, <a href="https://github.com/CatoTH">melde dich</a> einfach bei uns.<br><br>' .
                                     '<strong>Hinweis:</strong> Änderungen hier wirken sich nur auf die aktuelle Veranstaltung aus - auf keine andere.',
     'translating_none'           => 'Keine Texte zu übersetzen',
     'translating_base'           => 'Basis-Sprachversion',
@@ -573,7 +573,7 @@ Da <strong>kein E-Mail-Versand</strong> eingerichtet ist, musst du die <strong>P
     'updates_show_changes' => 'Änderungen anzeigen',
 
     'php_version_hint_title' => '<strong>Warnung:</strong> Zu alte PHP-Version',
-    'php_version_hint_text'  => 'Auf diesem Server läuft noch PHP in der veralteten Version %CURR%. Zukünftige Versionen von Antragsgrün sind damit nicht mehr kompatibel. Bitte aktualisiere bald.',
+    'php_version_hint_text'  => 'Auf diesem Server läuft noch PHP in der veralteten Version %CURR%. Zukünftige Versionen von Antragsrot sind damit nicht mehr kompatibel. Bitte aktualisiere bald.',
 
     'theme_title'                       => 'Eigenes Farbschema',
     'theme_block_text'                  => 'Text',

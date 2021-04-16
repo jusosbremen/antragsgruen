@@ -96,8 +96,8 @@ return [
     'proposal_autoupdate'      => 'Auto-Update',
     'proposal_updated'         => 'Stand',
 
-    'aad_title' => 'Dein Antragsgrün',
-    'aad_text'  => 'Du willst Antragsgrün für deine(n) Verband, Verein oder Arbeitsgruppe einsetzen?',
+    'aad_title' => 'Dein Antragsrot',
+    'aad_text'  => 'Du willst Antragsrot für deine(n) Verband, Verein oder Arbeitsgruppe einsetzen?',
     'aad_btn'   => 'Das Antragstool selbst einsetzen',
 
     'agenda_title'   => 'Titel',

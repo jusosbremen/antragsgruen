@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Antragsgrün-Seite anlegen',
+    'title' => 'Antragsrot-Seite anlegen',
 
     'step_language'   => 'Sprache',
     'step_purpose'    => 'Einsatzzweck',
@@ -126,8 +126,8 @@ return [
     'sandbox_dummy_contact' => 'Test-Kontakt',
     'sandbox_dummy_orga'    => 'Organisation X',
     'sandbox_dummy_title'   => 'Test-Veranstaltung',
-    'sandbox_dummy_welcome' => '<h2>Willkommen auf Antragsgrün!</h2><br><br>
-                                Auf dieser Seite kannst du die Funktionen von Antragsgrün frei ausprobieren.
+    'sandbox_dummy_welcome' => '<h2>Willkommen auf Antragsrot!</h2><br><br>
+                                Auf dieser Seite kannst du die Funktionen von Antragsrot frei ausprobieren.
                                 Jede*r kann diese Seite unter folgender Adresse aufrufen:<br><br>
                                 <blockquote><strong><a href="%SITE_URL%">%SITE_URL%</a></strong></blockquote><br><br>
                                 Wir haben einen Test-Admin-Benutzer angelegt, mit dem die verschiedenen administrativen Vorgänge getestet werden können:<br><br>

@@ -106,8 +106,8 @@ return [
     'sandbox_dummy_contact' => 'Test contact',
     'sandbox_dummy_orga'    => 'Organisation X',
     'sandbox_dummy_title'   => 'Evénement test',
-    'sandbox_dummy_welcome' => '<h2>Bienvenue sur Antragsgrün!</h2><br><br>
-                                Sur ce site bac-à-sable,tu peux tester librements toutes les fonctions d\'Antragsgrün.
+    'sandbox_dummy_welcome' => '<h2>Bienvenue sur Antragsrot!</h2><br><br>
+                                Sur ce site bac-à-sable,tu peux tester librements toutes les fonctions d\'Antragsrot.
                                 Tout le monde peut accéder à ce site en utilisation ce lien:<br><br>
                                 <blockquote><strong><a href="%SITE_URL%">%SITE_URL%</a></strong></blockquote>
                                 <br><br>

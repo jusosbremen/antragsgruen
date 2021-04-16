@@ -9,7 +9,7 @@ use yii\helpers\Html;
  * @var Site[] $site
  */
 
-$this->title = 'Antragsgrün - die grüne Online-Antragsverwaltung';
+$this->title = 'Antragsrot - die grüne Online-Antragsverwaltung';
 /** @var \app\controllers\Base $controller */
 $controller  = $this->context;
 $controller->layoutParams->addCSS('css/manager.css');
@@ -20,10 +20,10 @@ $controller->layoutParams->alternateLanuages = ['en' => 'https://motion.tools/']
 $params = \Yii::$app->params;
 
 ?>
-<h1 id="antragsgruenTitle">Antragsgrün - das grüne Antragstool</h1>
+<h1 id="antragsgruenTitle">Antragsrot - das grüne Antragstool</h1>
 
 <section class="content infoSite" aria-labelledby="antragsgruenTitle">
-    <p>Antragsgrün ist ein <strong>Antrags-Verwaltungs-System</strong>, das speziell für <strong>Parteitage,
+    <p>Antragsrot ist ein <strong>Antrags-Verwaltungs-System</strong>, das speziell für <strong>Parteitage,
             Verbandstagungen sowie Programmdiskussionen</strong> entwickelt wurde.</p>
 
     <p>
@@ -41,10 +41,10 @@ $params = \Yii::$app->params;
 </section>
 
 <section aria-labelledby="funktionen">
-    <h2 id="funktionen" class="green">Welche Funktionen bietet Antragsgrün?</h2>
+    <h2 id="funktionen" class="green">Welche Funktionen bietet Antragsrot?</h2>
 
     <div class="content infoSite">
-        <strong>Das kann Antragsgrün:</strong>
+        <strong>Das kann Antragsrot:</strong>
         <ul>
             <li><strong>Anträge, Änderungsanträge, Kommentare</strong> dazu, Unterstützen von (Änderungs-)Anträgen.
                 Übersichtliche Darstellung von Änderungsanträgen.
@@ -76,7 +76,7 @@ $params = \Yii::$app->params;
             </li>
         </ul>
 
-        <strong>Das kann Antragsgrün nicht</strong>:
+        <strong>Das kann Antragsrot nicht</strong>:
         <ul>
             <li><strong>Vor-Ort-Präsentationen</strong>. Auf Parteitagen selbst bietet sich der
                 Einsatz von Tools an, die speziell dafür ausgelegt sind - wir empfehlen hier
@@ -95,13 +95,13 @@ $params = \Yii::$app->params;
 </section>
 
 <section aria-labelledby="selbst_nutzen">
-    <h2 id="selbst_nutzen" class="green">Antragsgrün nutzen</h2>
+    <h2 id="selbst_nutzen" class="green">Antragsrot nutzen</h2>
 
     <div class="content infoSite">
-        <h3>Antragsgrün ausprobieren</h3>
+        <h3>Antragsrot ausprobieren</h3>
         <p>
-            Wenn du erst einmal ausprobieren willst, ob Antragsgrün für deine Zwecke passend ist,
-            kannst du hier schnell und ohne Angabe von Kontaktdaten eine eigene Test-Version von Antragsgrün
+            Wenn du erst einmal ausprobieren willst, ob Antragsrot für deine Zwecke passend ist,
+            kannst du hier schnell und ohne Angabe von Kontaktdaten eine eigene Test-Version von Antragsrot
             anlegen, die für wenige Tage verfügbar ist.
         </p>
         <p style="text-align: center; margin-bottom: 40px;">
@@ -110,7 +110,7 @@ $params = \Yii::$app->params;
 
         <h3>Hosting unter *.antragsgruen.de</h3>
         <p>
-            Organisationen, die Antragsgrün nicht auf einem eigenen Server installieren und betreiben wollen, können unser Hosting in Anspruch nehmen.
+            Organisationen, die Antragsrot nicht auf einem eigenen Server installieren und betreiben wollen, können unser Hosting in Anspruch nehmen.
             In diesem Fall bekommt man eine frei wählbare Subdomain, z.B. <em>meine-organisation.antragsgruen.de</em>,
             und kann darunter beliebig viele Veranstaltungen abhalten.
         </p>
@@ -130,20 +130,20 @@ $params = \Yii::$app->params;
                 Grünen-Mitglied nutzen</a>" nutzen und es dir innerhalb von zwei, drei Minuten selbst einrichten.
             Benötigt wird nur ein Zugang beim Grünen Netz.<br>
             Die oben genannte Hosting-Gebühr entfällt in diesem Fall - wir bitten aber dennoch um einen freiwilligen Beitrag,
-            um Antragsgrün weiter betreiben zu können.
+            um Antragsrot weiter betreiben zu können.
         </p>
 
         <h3>Fehlt eine Funktion? Professioneller Support und Anpassungen gewünscht?</h3>
         <p id="support" style="margin-bottom: 40px;">
             Sind speziellere programmiertechnische Anpassungen nötig, garantierte Verfügbarkeit während einem bestimmten
-            Zeitraum, oder sollen wir Antragsgrün auf einer <strong>eigenen Domain</strong> hosten,
+            Zeitraum, oder sollen wir Antragsrot auf einer <strong>eigenen Domain</strong> hosten,
             können wir diese auf Stundensatzbasis umsetzen. Bei Fragen und Wünschen sind wir immer
             <a href="#wer" onClick="$('#wer').scrollintoview({top_offset: -50}); return false;">erreichbar</a>.
         </p>
 
-        <h3>Antragsgrün ist <span lang="en">OpenSource</span></h3>
+        <h3>Antragsrot ist <span lang="en">OpenSource</span></h3>
         <p style="margin-bottom: 40px;">
-            Antragsgrün ist
+            Antragsrot ist
             <a href="#opensource" onClick="$('#opensource').scrollintoview({top_offset: -50}); return false;">OpenSource-Software</a>
             und kann von jeder und jedem kostenlos genutzt werden, sowohl um an Diskussionen
             teilzunehmen, als auch um eigene Programm-/Antragsdiskussionen einzurichten. Den Download und eine Anleitung
@@ -172,7 +172,7 @@ $params = \Yii::$app->params;
             ]
         );
         echo '
-        Um dir sofort eine eigene Version von Antragsgrün einzurichten, logge dich zunächst mit deinem
+        Um dir sofort eine eigene Version von Antragsrot einzurichten, logge dich zunächst mit deinem
     &quot;Grünes Netz&quot;-Account ein.<br><br>';
         echo '<button type="submit" class="btn btn-primary" name="login_do" style="vertical-align: top;">Einloggen</button>';
 
@@ -180,7 +180,7 @@ $params = \Yii::$app->params;
 Du wirst, nachdem du hier deinen Benutzer*innenname eingegeben hast, auf eine "<span aria-label="Open I.D." lang="en">OpenID</span>"-Seite umgeleitet, die vom
 grünen Bundesverband betrieben wird (Adresse im Browser: https://service.gruene.de). Dort wirst du aufgefordert,
 deinen Benutzer*innenname und -Passwort des Grünen Netzes einzugeben. Diese Seite bestätigt
-gegenüber Antragsgrün, dass du Parteimitglied bist und leitet deinen Namen und E-Mail-Adresse weiter - nicht
+gegenüber Antragsrot, dass du Parteimitglied bist und leitet deinen Namen und E-Mail-Adresse weiter - nicht
 aber das Passwort.</div>';
 
         echo Html::endForm();
@@ -193,11 +193,11 @@ aber das Passwort.</div>';
     <h2 id="wer" class="green">Kontakt</h2>
 
     <div class="content infoSite">
-        <p>Antragsgrün wird von <a href="https://www.hoessl.eu/">Tobias Hößl</a> (<a
+        <p>Antragsrot wird von <a href="https://www.hoessl.eu/">Tobias Hößl</a> (<a
                 href="https://twitter.com/TobiasHoessl">@TobiasHoessl</a>) programmiert, das ursprüngliche Design stammt von <a
                 href="http://www.netzminze.de/">Karin Wehle</a>.</p>
 
-        <p>Wir werden das Antragsgrün in Zukunft weiter ausbauen und um <strong>zusätzliche Funktionen</strong> ergänzen.
+        <p>Wir werden das Antragsrot in Zukunft weiter ausbauen und um <strong>zusätzliche Funktionen</strong> ergänzen.
             Funktionen, für die sich „Sponsoren“ finden, werden dabei besonders priorisiert.
         </p>
 
@@ -211,14 +211,14 @@ aber das Passwort.</div>';
     <h2 id="opensource" class="green" lang="en">Open Source</h2>
 
     <div class="content infoSite">
-        <p>Antragsgrün steht unter der „<span lang="en">GNU Affero General Public License</span>“. Das heißt, jede und jeder Interessierte kann das
+        <p>Antragsrot steht unter der „<span lang="en">GNU Affero General Public License</span>“. Das heißt, jede und jeder Interessierte kann das
             Tool nicht nur kostenlos einsetzen, sondern bei Bedarf auch Änderungen vornehmen (was auch die Verwendung in
             anderen Parteien oder völlig anderen Organisationen umfasst). Bedingung dafür ist aber unter anderem, dass wir
             als Urheber*innen weiter genannt werden und Änderungen am Tool ebenfalls wieder frei verfügbar gemacht
             werden.</p>
 
-        <p>Der komplette Quellcode von Antragsgrün ist unter
-            <a href="https://github.com/CatoTH/antragsgruen" aria-label="Quellcode von Antragsgrün auf Github">https://github.com/CatoTH/antragsgruen</a>
+        <p>Der komplette Quellcode von Antragsrot ist unter
+            <a href="https://github.com/CatoTH/antragsgruen" aria-label="Quellcode von Antragsrot auf Github">https://github.com/CatoTH/antragsgruen</a>
             abrufbar.</p>
     </div>
 </section>
