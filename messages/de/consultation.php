@@ -97,7 +97,7 @@ return [
     'proposal_updated'         => 'Stand',
 
     'aad_title' => 'Dein Antragsrot',
-    'aad_text'  => 'Du willst Antragsrot für deine(n) Verband, Verein oder Arbeitsgruppe einsetzen?',
+    'aad_text'  => 'Antragsrot basiert auf dem Tool <a href="https://antragsgruen.de/">AntragsGrün/motions.tool</a> ursprünglich entwicklelt von <a href="https://www.hoessl.eu/">Tobias Hössel</a> von den Grünen/Bündnis \'90 München. Wir danken ihm zutiefst dass er dieses Tool Open-Source unter der AGPL-3-Lizenz der Allgemeinheit zur Verfügung. Anpassung an die Nutzung durch die Jusos Bremen erfolgten durch Jan Romann und Peter Ambos.',
     'aad_btn'   => 'Das Antragstool selbst einsetzen',
 
     'agenda_title'   => 'Titel',
